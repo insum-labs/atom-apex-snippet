@@ -12,7 +12,7 @@
       "apex-snippet-master-pack:postCommaCaps"
     ]
   },
-  "repository": "https://github.com/atom/apex-snippet-master-pack",
+  "repository": "https://github.com/zacharyjwilcox/apex-snippet-master-pack",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
