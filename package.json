@@ -1,7 +1,7 @@
 {
   "name": "apex-snippet-master-pack",
   "main": "./lib/apex-snippet-master-pack",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A complete set of PL/SQL functions & parameters for Apex, and selected JavaScript functions as well.",
   "keywords": [],
   "activationCommands": {
