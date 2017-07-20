@@ -1,0 +1,23 @@
+{
+  "name": "apex-snippet-master-pack",
+  "main": "./lib/apex-snippet-master-pack",
+  "version": "0.0.1",
+  "description": "A complete set of PL/SQL functions & parameters for Apex, and selected JavaScript functions as well.",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": [
+      "apex-snippet-master-pack:preComma",
+      "apex-snippet-master-pack:postComma",
+      "apex-snippet-master-pack:preCommaCaps",
+      "apex-snippet-master-pack:postCommaCaps"
+    ]
+  },
+  "repository": "https://github.com/insum-labs/atom-apex-snippet",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "fs": ""
+  }
+}

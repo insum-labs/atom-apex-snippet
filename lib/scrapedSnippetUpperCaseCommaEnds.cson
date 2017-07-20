@@ -1,0 +1,3559 @@
+'.source.sql':
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/HELP-Procedure.htm
+	'APEX_APPLICATION.HELP':
+		'prefix': 'APEX_APPLICATION.HELP'
+		'body': """APEX_APPLICATION.HELP(
+	request => $1,
+	flow_id => $2,
+	flow_step_id => $3,
+	show_item_help => $4,
+	show_regions => $5,
+	before_page_html => $6,
+	after_page_html => $7,
+	before_region_html => $8,
+	after_region_html => $9,
+	before_prompt_html => $10,
+	after_prompt_html => $11,
+	before_item_html => $12,
+	after_item_html => $13
+);$14"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/STOP_APEX_ENGINE-Procedure.htm
+	'APEX_APPLICATION.STOP_APEX_ENGINE':
+		'prefix': 'APEX_APPLICATION.STOP_APEX_ENGINE'
+		'body': """APEX_APPLICATION.STOP_APEX_ENGINE"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CLEAR_ALL-Procedure.htm
+	'APEX_APPLICATION_INSTALL.CLEAR_ALL':
+		'prefix': 'APEX_APPLICATION_INSTALL.CLEAR_ALL'
+		'body': """APEX_APPLICATION_INSTALL.CLEAR_ALL"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GENERATE_APPLICATION_ID-Procedure.htm
+	'APEX_APPLICATION_INSTALL.GENERATE_APPLICATION_ID':
+		'prefix': 'APEX_APPLICATION_INSTALL.GENERATE_APPLICATION_ID'
+		'body': """APEX_APPLICATION_INSTALL.GENERATE_APPLICATION_ID"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GENERATE_OFFSET-Procedure.htm
+	'APEX_APPLICATION_INSTALL.GENERATE_OFFSET':
+		'prefix': 'APEX_APPLICATION_INSTALL.GENERATE_OFFSET'
+		'body': """APEX_APPLICATION_INSTALL.GENERATE_OFFSET"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_APPLICATION_ALIAS-Function.htm
+	'APEX_APPLICATION_INSTALL.GET_APPLICATION_ALIAS':
+		'prefix': 'APEX_APPLICATION_INSTALL.GET_APPLICATION_ALIAS'
+		'body': """APEX_APPLICATION_INSTALL.GET_APPLICATION_ALIAS"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_APPLICATION_ID-Function.htm
+	'APEX_APPLICATION_INSTALL.GET_APPLICATION_ID':
+		'prefix': 'APEX_APPLICATION_INSTALL.GET_APPLICATION_ID'
+		'body': """APEX_APPLICATION_INSTALL.GET_APPLICATION_ID"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_APPLICATION_NAME-Function.htm
+	'APEX_APPLICATION_INSTALL.GET_APPLICATION_NAME':
+		'prefix': 'APEX_APPLICATION_INSTALL.GET_APPLICATION_NAME'
+		'body': """APEX_APPLICATION_INSTALL.GET_APPLICATION_NAME"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_AUTO_INSTALL_SUP_OBJ-Function.htm
+	'APEX_APPLICATION_INSTALL.GET_AUTO_INSTALL_SUP_OBJ':
+		'prefix': 'APEX_APPLICATION_INSTALL.GET_AUTO_INSTALL_SUP_OBJ'
+		'body': """APEX_APPLICATION_INSTALL.GET_AUTO_INSTALL_SUP_OBJ"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_IMAGE_PREFIX-Function.htm
+	'APEX_APPLICATION_INSTALL.GET_IMAGE_PREFIX':
+		'prefix': 'APEX_APPLICATION_INSTALL.GET_IMAGE_PREFIX'
+		'body': """APEX_APPLICATION_INSTALL.GET_IMAGE_PREFIX"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_KEEP_SESSIONS-Function.htm
+	'EXAMPLE':
+		'prefix': 'EXAMPLE'
+		'body': """EXAMPLE"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_OFFSET-Function.htm
+	'APEX_APPLICATION_INSTALL.GET_OFFSET':
+		'prefix': 'APEX_APPLICATION_INSTALL.GET_OFFSET'
+		'body': """APEX_APPLICATION_INSTALL.GET_OFFSET"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_PROXY-Function.htm
+	'APEX_APPLICATION_INSTALL.GET_PROXY':
+		'prefix': 'APEX_APPLICATION_INSTALL.GET_PROXY'
+		'body': """APEX_APPLICATION_INSTALL.GET_PROXY"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_SCHEMA-Function.htm
+	'APEX_APPLICATION_INSTALL.GET_SCHEMA':
+		'prefix': 'APEX_APPLICATION_INSTALL.GET_SCHEMA'
+		'body': """APEX_APPLICATION_INSTALL.GET_SCHEMA"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_WORKSPACE_ID-Function.htm
+	'APEX_APPLICATION_INSTALL.GET_WORKSPACE_ID':
+		'prefix': 'APEX_APPLICATION_INSTALL.GET_WORKSPACE_ID'
+		'body': """APEX_APPLICATION_INSTALL.GET_WORKSPACE_ID"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_APPLICATION_ALIAS-Procedure.htm
+	'APEX_APPLICATION_INSTALL.SET_APPLICATION_ALIAS':
+		'prefix': 'APEX_APPLICATION_INSTALL.SET_APPLICATION_ALIAS'
+		'body': """APEX_APPLICATION_INSTALL.SET_APPLICATION_ALIAS(
+	application_alias => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_APPLICATION_ID-Procedure.htm
+	'APEX_APPLICATION_INSTALL.SET_APPLICATION_ID':
+		'prefix': 'APEX_APPLICATION_INSTALL.SET_APPLICATION_ID'
+		'body': """APEX_APPLICATION_INSTALL.SET_APPLICATION_ID(
+	application_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_APPLICATION_NAME-Procedure.htm
+	'APEX_APPLICATION_INSTALL.SET_APPLICATION_NAME':
+		'prefix': 'APEX_APPLICATION_INSTALL.SET_APPLICATION_NAME'
+		'body': """APEX_APPLICATION_INSTALL.SET_APPLICATION_NAME(
+	application_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_AUTO_INSTALL_SUP_OBJ-Procedure.htm
+	'APEX_APPLICATION_INSTALL.SET_AUTO_INSTALL_SUP_OBJ':
+		'prefix': 'APEX_APPLICATION_INSTALL.SET_AUTO_INSTALL_SUP_OBJ'
+		'body': """APEX_APPLICATION_INSTALL.SET_AUTO_INSTALL_SUP_OBJ(
+	auto_install_sup_obj => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_IMAGE_PREFIX-Procedure.htm
+	'APEX_APPLICATION_INSTALL.SET_IMAGE_PREFIX':
+		'prefix': 'APEX_APPLICATION_INSTALL.SET_IMAGE_PREFIX'
+		'body': """APEX_APPLICATION_INSTALL.SET_IMAGE_PREFIX(
+	image_prefix => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_KEEP_SESSIONS-Procedure.htm
+	'PARAMETERS':
+		'prefix': 'PARAMETERS'
+		'body': """PARAMETERS(the default$1
+);$1"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_OFFSET-Procedure.htm
+	'APEX_APPLICATION_INSTALL.SET_OFFSET':
+		'prefix': 'APEX_APPLICATION_INSTALL.SET_OFFSET'
+		'body': """APEX_APPLICATION_INSTALL.SET_OFFSET(
+	offset => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_PROXY-Procedure.htm
+	'APEX_APPLICATION_INSTALL.SET_PROXY':
+		'prefix': 'APEX_APPLICATION_INSTALL.SET_PROXY'
+		'body': """APEX_APPLICATION_INSTALL.SET_PROXY(
+	proxy => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_SCHEMA-Procedure.htm
+	'APEX_APPLICATION_INSTALL.SET_SCHEMA':
+		'prefix': 'APEX_APPLICATION_INSTALL.SET_SCHEMA'
+		'body': """APEX_APPLICATION_INSTALL.SET_SCHEMA(
+	schema => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_WORKSPACE_ID-Procedure.htm
+	'APEX_APPLICATION_INSTALL.SET_WORKSPACE_ID':
+		'prefix': 'APEX_APPLICATION_INSTALL.SET_WORKSPACE_ID'
+		'body': """APEX_APPLICATION_INSTALL.SET_WORKSPACE_ID(
+	workspace_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CALLBACK-Procedure.htm
+	'APEX_AUTHENTICATION.CALLBACK':
+		'prefix': 'APEX_AUTHENTICATION.CALLBACK'
+		'body': """APEX_AUTHENTICATION.CALLBACK(
+	session_id => $1,
+	app_id => $2,
+	page_id => $3,
+	ajax_identifier => $4,
+	x01 => $5,
+	x02 => $6,
+	x03 => $7,
+	x04 => $8,
+	x05 => $9,
+	x06 => $10,
+	x07 => $11,
+	x08 => $12,
+	x09 => $13,
+	x10 => $14
+);$15"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_CALLBACK_URL-Function.htm
+	'APEX_AUTHENTICATION.GET_CALLBACK_URL':
+		'prefix': 'APEX_AUTHENTICATION.GET_CALLBACK_URL'
+		'body': """APEX_AUTHENTICATION.GET_CALLBACK_URL(
+	x01 => $1,
+	x02 => $2,
+	x03 => $3,
+	x04 => $4,
+	x05 => $5,
+	x06 => $6,
+	x07 => $7,
+	x08 => $8,
+	x09 => $9,
+	x10 => $10
+);$11"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_LOGIN_USERNAME_COOKIE-Function.htm
+	'APEX_AUTHENTICATION.GET_LOGIN_USERNAME_COOKIE':
+		'prefix': 'APEX_AUTHENTICATION.GET_LOGIN_USERNAME_COOKIE'
+		'body': """APEX_AUTHENTICATION.GET_LOGIN_USERNAME_COOKIE(
+	cookie_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/IS_AUTHENTICATED-Function.htm
+	'APEX_AUTHENTICATION.IS_AUTHENTICATED':
+		'prefix': 'APEX_AUTHENTICATION.IS_AUTHENTICATED'
+		'body': """APEX_AUTHENTICATION.IS_AUTHENTICATED"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/IS_PUBLIC_USER-Function.htm
+	'APEX_AUTHENTICATION.IS_PUBLIC_USER':
+		'prefix': 'APEX_AUTHENTICATION.IS_PUBLIC_USER'
+		'body': """APEX_AUTHENTICATION.IS_PUBLIC_USER"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/LOGIN-Procedure.htm
+	'APEX_AUTHENTICATION.LOGIN':
+		'prefix': 'APEX_AUTHENTICATION.LOGIN'
+		'body': """APEX_AUTHENTICATION.LOGIN(
+	username => $1,
+	password => $2,
+	uppercase_username => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/LOGOUT-Procedure.htm
+	'APEX_AUTHENTICATION.LOGOUT':
+		'prefix': 'APEX_AUTHENTICATION.LOGOUT'
+		'body': """APEX_AUTHENTICATION.LOGOUT(
+	session_id => $1,
+	app_id => $2,
+	ws_app_id => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/POST_LOGIN-Procedure.htm
+	'APEX_AUTHENTICATION.POST_LOGIN':
+		'prefix': 'APEX_AUTHENTICATION.POST_LOGIN'
+		'body': """APEX_AUTHENTICATION.POST_LOGIN(
+	username => $1,
+	password => $2,
+	uppercase_username => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SEND_LOGIN_USERNAME_COOKIE-Procedure.htm
+	'APEX_AUTHENTICATION.SEND_LOGIN_USERNAME_COOKIE':
+		'prefix': 'APEX_AUTHENTICATION.SEND_LOGIN_USERNAME_COOKIE'
+		'body': """APEX_AUTHENTICATION.SEND_LOGIN_USERNAME_COOKIE(
+	username => $1,
+	cookie_name => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ENABLE_DYNAMIC_GROUPS-Procedure.htm
+	'APEX_AUTHORIZATION.ENABLE_DYNAMIC_GROUPS':
+		'prefix': 'APEX_AUTHORIZATION.ENABLE_DYNAMIC_GROUPS'
+		'body': """APEX_AUTHORIZATION.ENABLE_DYNAMIC_GROUPS(
+	group_names => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/IS_AUTHORIZED-Function.htm
+	'APEX_AUTHORIZATION.IS_AUTHORIZED':
+		'prefix': 'APEX_AUTHORIZATION.IS_AUTHORIZED'
+		'body': """APEX_AUTHORIZATION.IS_AUTHORIZED(
+	authorization_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/RESET_CACHE-Procedure.htm
+	'APEX_AUTHORIZATION.RESET_CACHE':
+		'prefix': 'APEX_AUTHORIZATION.RESET_CACHE'
+		'body': """APEX_AUTHORIZATION.RESET_CACHE"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_MEMBER-Procedure.htm
+	'APEX_COLLECTION.ADD_MEMBER':
+		'prefix': 'APEX_COLLECTION.ADD_MEMBER'
+		'body': """APEX_COLLECTION.ADD_MEMBER(
+	collection_name => $1,
+	c001 => $2,
+    ...
+	c050 => $3,
+	n001 => $4,
+	n002 => $5,
+	n003 => $6,
+	n004 => $7,
+	n005 => $8,
+	d001 => $9,
+	d002 => $10,
+	d003 => $11,
+	d004 => $12,
+	d005 => $13,
+	clob001 => $14
+);$15"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_MEMBERS-Procedure.htm
+	'APEX_COLLECTION.ADD_MEMBERS':
+		'prefix': 'APEX_COLLECTION.ADD_MEMBERS'
+		'body': """APEX_COLLECTION.ADD_MEMBERS(
+	collection_name => $1,
+	c001 => $2,
+	c002 => $3,
+	c003 => $4,
+    ...
+	c050 => $5,
+	n001 => $6,
+	n002 => $7,
+	n003 => $8,
+	n004 => $9,
+	n005 => $10,
+	d001 => $11,
+	d002 => $12,
+	d003 => $13,
+	d004 => $14,
+	d005 => $15,
+	generate_md5 => $16
+);$17"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/COLLECTION_EXISTS-Function.htm
+	'APEX_COLLECTION.COLLECTION_EXISTS':
+		'prefix': 'APEX_COLLECTION.COLLECTION_EXISTS'
+		'body': """APEX_COLLECTION.COLLECTION_EXISTS(
+	collection_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/COLLECTION_HAS_CHANGED-Function.htm
+	'APEX_COLLECTION.COLLECTION_HAS_CHANGED':
+		'prefix': 'APEX_COLLECTION.COLLECTION_HAS_CHANGED'
+		'body': """APEX_COLLECTION.COLLECTION_HAS_CHANGED(
+	collection_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/COLLECTION_MEMBER_COUNT-Function.htm
+	'APEX_COLLECTION.COLLECTION_MEMBER_COUNT':
+		'prefix': 'APEX_COLLECTION.COLLECTION_MEMBER_COUNT'
+		'body': """APEX_COLLECTION.COLLECTION_MEMBER_COUNT(
+	collection_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CREATE_COLLECTION-Procedure.htm
+	'APEX_COLLECTION.CREATE_COLLECTION':
+		'prefix': 'APEX_COLLECTION.CREATE_COLLECTION'
+		'body': """APEX_COLLECTION.CREATE_COLLECTION(
+	collection_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CREATE_OR_TRUNCATE_COLLECTION-Procedure.htm
+	'APEX_COLLECTION.CREATE_OR_TRUNCATE_COLLECTION':
+		'prefix': 'APEX_COLLECTION.CREATE_OR_TRUNCATE_COLLECTION'
+		'body': """APEX_COLLECTION.CREATE_OR_TRUNCATE_COLLECTION(
+	collection_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CREATE_COLLECTION_FROM_QUERY-Procedure.htm
+	'APEX_COLLECTION.CREATE_COLLECTION_FROM_QUERY':
+		'prefix': 'APEX_COLLECTION.CREATE_COLLECTION_FROM_QUERY'
+		'body': """APEX_COLLECTION.CREATE_COLLECTION_FROM_QUERY(
+	collection_name => $1,
+	query => $2,
+	generate_md5 => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CREATE_COLLECTION_FROM_QUERY2-Procedure.htm
+	'APEX_COLLECTION.CREATE_COLLECTION_FROM_QUERY2':
+		'prefix': 'APEX_COLLECTION.CREATE_COLLECTION_FROM_QUERY2'
+		'body': """APEX_COLLECTION.CREATE_COLLECTION_FROM_QUERY2(
+	collection_name => $1,
+	query => $2,
+	generate_md5 => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CREATE_COLLECTION_FROM_QUERY_B-Procedure.htm
+	'APEX_COLLECTION.CREATE_COLLECTION_FROM_QUERY_B':
+		'prefix': 'APEX_COLLECTION.CREATE_COLLECTION_FROM_QUERY_B'
+		'body': """APEX_COLLECTION.CREATE_COLLECTION_FROM_QUERY_B(
+	collection_name => $1,
+	query => $2,
+	names => $3,
+	values => $4,
+	max_row_count => $5
+);$6"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CREATE_COLLECTION_FROM_QUERYB2-Procedure.htm
+	'APEX_COLLECTION.CREATE_COLLECTION_FROM_QUERYB2':
+		'prefix': 'APEX_COLLECTION.CREATE_COLLECTION_FROM_QUERYB2'
+		'body': """APEX_COLLECTION.CREATE_COLLECTION_FROM_QUERYB2(
+	collection_name => $1,
+	query => $2,
+	names => $3,
+	values => $4,
+	max_row_count => $5
+);$6"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DELETE_ALL_COLLECTIONS-Procedure.htm
+	'APEX_COLLECTION.DELETE_ALL_COLLECTIONS':
+		'prefix': 'APEX_COLLECTION.DELETE_ALL_COLLECTIONS'
+		'body': """APEX_COLLECTION.DELETE_ALL_COLLECTIONS"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DELETE_ALL_COLLECTIONS_SESSION-Procedure.htm
+	'APEX_COLLECTION.DELETE_ALL_COLLECTIONS_SESSION':
+		'prefix': 'APEX_COLLECTION.DELETE_ALL_COLLECTIONS_SESSION'
+		'body': """APEX_COLLECTION.DELETE_ALL_COLLECTIONS_SESSION"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DELETE_COLLECTION-Procedure.htm
+	'APEX_COLLECTION.DELETE_COLLECTION':
+		'prefix': 'APEX_COLLECTION.DELETE_COLLECTION'
+		'body': """APEX_COLLECTION.DELETE_COLLECTION(
+	collection_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DELETE_MEMBER-Procedure.htm
+	'APEX_COLLECTION.DELETE_MEMBER':
+		'prefix': 'APEX_COLLECTION.DELETE_MEMBER'
+		'body': """APEX_COLLECTION.DELETE_MEMBER(
+	collection_name => $1,
+	seq => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DELETE_MEMBERS-Procedure.htm
+	'APEX_COLLECTION.DELETE_MEMBERS':
+		'prefix': 'APEX_COLLECTION.DELETE_MEMBERS'
+		'body': """APEX_COLLECTION.DELETE_MEMBERS(
+	collection_name => $1,
+	attr_number => $2,
+	attr_value => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_MEMBER_MD5-Function.htm
+	'APEX_COLLECTION.GET_MEMBER_MD5':
+		'prefix': 'APEX_COLLECTION.GET_MEMBER_MD5'
+		'body': """APEX_COLLECTION.GET_MEMBER_MD5(
+	collection_name => $1,
+	seq => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/MERGE_MEMBERS-Procedure.htm
+	'APEX_COLLECTION.MERGE_MEMBERS':
+		'prefix': 'APEX_COLLECTION.MERGE_MEMBERS'
+		'body': """APEX_COLLECTION.MERGE_MEMBERS(
+	collection_name => $1,
+	seq => $2,
+	c001 => $3,
+	c002 => $4,
+	c003 => $5,
+    ...
+	c050 => $6,
+	null_index => $7,
+	null_value => $8,
+	init_query => $9
+);$10"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/MOVE_MEMBER_DOWN-Procedure.htm
+	'APEX_COLLECTION.MOVE_MEMBER_DOWN':
+		'prefix': 'APEX_COLLECTION.MOVE_MEMBER_DOWN'
+		'body': """APEX_COLLECTION.MOVE_MEMBER_DOWN(
+	collection_name => $1,
+	seq => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/MOVE_MEMBER_UP-Procedure.htm
+	'APEX_COLLECTION.MOVE_MEMBER_UP':
+		'prefix': 'APEX_COLLECTION.MOVE_MEMBER_UP'
+		'body': """APEX_COLLECTION.MOVE_MEMBER_UP(
+	collection_name => $1,
+	seq => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/RESEQUENCE_COLLECTION-Procedure.htm
+	'APEX_COLLECTION.RESEQUENCE_COLLECTION':
+		'prefix': 'APEX_COLLECTION.RESEQUENCE_COLLECTION'
+		'body': """APEX_COLLECTION.RESEQUENCE_COLLECTION(
+	collection_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/RESET_COLLECTION_CHANGED-Procedure.htm
+	'APEX_COLLECTION.RESET_COLLECTION_CHANGED':
+		'prefix': 'APEX_COLLECTION.RESET_COLLECTION_CHANGED'
+		'body': """APEX_COLLECTION.RESET_COLLECTION_CHANGED(
+	collection_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/RESET_COLLECTION_CHANGED_ALL-Procedure.htm
+	'APEX_COLLECTION.RESET_COLLECTION_CHANGED_ALL':
+		'prefix': 'APEX_COLLECTION.RESET_COLLECTION_CHANGED_ALL'
+		'body': """APEX_COLLECTION.RESET_COLLECTION_CHANGED_ALL(
+);$1"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SORT_MEMBERS-Procedure.htm
+	'APEX_COLLECTION.SORT_MEMBERS':
+		'prefix': 'APEX_COLLECTION.SORT_MEMBERS'
+		'body': """APEX_COLLECTION.SORT_MEMBERS(
+	collection_name => $1,
+	sort_on_column_number => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/TRUNCATE_COLLECTION-Procedure.htm
+	'APEX_COLLECTION.TRUNCATE_COLLECTION':
+		'prefix': 'APEX_COLLECTION.TRUNCATE_COLLECTION'
+		'body': """APEX_COLLECTION.TRUNCATE_COLLECTION(
+	collection_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPDATE_MEMBER-Procedure.htm
+	'APEX_COLLECTION.UPDATE_MEMBER':
+		'prefix': 'APEX_COLLECTION.UPDATE_MEMBER'
+		'body': """APEX_COLLECTION.UPDATE_MEMBER(
+	collection_name => $1,
+	seq => $2,
+	c001 => $3,
+	c002 => $4,
+	c003 => $5,
+    ...
+	c050 => $6,
+	n001 => $7,
+	n002 => $8,
+	n003 => $9,
+	n004 => $10,
+	n005 => $11,
+	d001 => $12,
+	d002 => $13,
+	d003 => $14,
+	d004 => $15,
+	d005 => $16,
+	clob001 => $17
+);$18"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPDATE_MEMBERS-Procedure.htm
+	'APEX_COLLECTION.UPDATE_MEMBERS':
+		'prefix': 'APEX_COLLECTION.UPDATE_MEMBERS'
+		'body': """APEX_COLLECTION.UPDATE_MEMBERS(
+	collection_name => $1,
+	seq => $2,
+	c001 => $3,
+	c002 => $4,
+	c003 => $5,
+    ...
+	c050 => $6,
+	n001 => $7,
+	n002 => $8,
+	n003 => $9,
+	n004 => $10,
+	n005 => $11,
+	d001 => $12,
+	d002 => $13,
+	d003 => $14,
+	d004 => $15,
+	d005 => $16
+);$17"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPDATE_MEMBER_ATTRIBUTE-Procedure-Signature-1.htm
+	'APEX_COLLECTION.UPDATE_MEMBER_ATTRIBUTE':
+		'prefix': 'APEX_COLLECTION.UPDATE_MEMBER_ATTRIBUTE'
+		'body': """APEX_COLLECTION.UPDATE_MEMBER_ATTRIBUTE(
+	collection_name => $1,
+	seq => $2,
+	attr_number => $3,
+	attr_value => $4
+);$5"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD-Procedure.htm
+	'APEX_CSS.ADD':
+		'prefix': 'APEX_CSS.ADD'
+		'body': """APEX_CSS.ADD(
+	css => $1,
+	key => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_3RD_PARTY_LIBRARY_FILE-Procedure.htm
+	'ADD_3RD_PARTY_LIBRARY_FILE':
+		'prefix': 'ADD_3RD_PARTY_LIBRARY_FILE'
+		'body': """ADD_3RD_PARTY_LIBRARY_FILE(
+	library => $1,
+	file_name => $2,
+	directory => $3,
+	version => $4,
+	media_query => $5
+);$6"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_FILE-Procedure.htm
+	'APEX_CSS.ADD_FILE':
+		'prefix': 'APEX_CSS.ADD_FILE'
+		'body': """APEX_CSS.ADD_FILE(
+	name => $1,
+	directory => $2,
+	version => $3,
+	skip_extension => $4,
+	media_query => $5,
+	ie_condition => $6
+);$7"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/APPLICATION_PAGE_ITEM_EXISTS-Function.htm
+	'APEX_CUSTOM_AUTH.APPLICATION_PAGE_ITEM_EXISTS':
+		'prefix': 'APEX_CUSTOM_AUTH.APPLICATION_PAGE_ITEM_EXISTS'
+		'body': """APEX_CUSTOM_AUTH.APPLICATION_PAGE_ITEM_EXISTS(
+	item_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CURRENT_PAGE_IS_PUBLIC-Function.htm
+	'APEX_CUSTOM_AUTH.CURRENT_PAGE_IS_PUBLIC':
+		'prefix': 'APEX_CUSTOM_AUTH.CURRENT_PAGE_IS_PUBLIC'
+		'body': """APEX_CUSTOM_AUTH.CURRENT_PAGE_IS_PUBLIC"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DEFINE_USER_SESSION-Procedure.htm
+	'APEX_CUSTOM_AUTH.DEFINE_USER_SESSION':
+		'prefix': 'APEX_CUSTOM_AUTH.DEFINE_USER_SESSION'
+		'body': """APEX_CUSTOM_AUTH.DEFINE_USER_SESSION(
+	user => $1,
+	session_id => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_COOKIE_PROPS-Procedure.htm
+	'APEX_CUSTOM_AUTH.GET_COOKIE_PROPS':
+		'prefix': 'APEX_CUSTOM_AUTH.GET_COOKIE_PROPS'
+		'body': """APEX_CUSTOM_AUTH.GET_COOKIE_PROPS(
+	app_id => $1,
+	cookie_name => $2,
+	cookie_path => $3,
+	cookie_domain => $4,
+	secure => $5
+);$6"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_LDAP_PROPS-Procedure.htm
+	'APEX_CUSTOM_AUTH.GET_LDAP_PROPS':
+		'prefix': 'APEX_CUSTOM_AUTH.GET_LDAP_PROPS'
+		'body': """APEX_CUSTOM_AUTH.GET_LDAP_PROPS(
+	ldap_host => $1,
+	ldap_port => $2,
+	use_ssl => $3,
+	use_exact_dn => $4,
+	search_filter => $5,
+	ldap_dn => $6,
+	ldap_edit_function => $7
+);$8"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_NEXT_SESSION_ID-Function.htm
+	'APEX_CUSTOM_AUTH.GET_NEXT_SESSION_ID':
+		'prefix': 'APEX_CUSTOM_AUTH.GET_NEXT_SESSION_ID'
+		'body': """APEX_CUSTOM_AUTH.GET_NEXT_SESSION_ID"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_SECURITY_GROUP_ID-Function.htm
+	'APEX_CUSTOM_AUTH.GET_SECURITY_GROUP_ID':
+		'prefix': 'APEX_CUSTOM_AUTH.GET_SECURITY_GROUP_ID'
+		'body': """APEX_CUSTOM_AUTH.GET_SECURITY_GROUP_ID"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_SESSION_ID-Function.htm
+	'APEX_CUSTOM_AUTH.GET_SESSION_ID':
+		'prefix': 'APEX_CUSTOM_AUTH.GET_SESSION_ID'
+		'body': """APEX_CUSTOM_AUTH.GET_SESSION_ID"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_SESSION_ID_FROM_COOKIE-Function.htm
+	'APEX_CUSTOM_AUTH.GET_SESSION_ID_FROM_COOKIE':
+		'prefix': 'APEX_CUSTOM_AUTH.GET_SESSION_ID_FROM_COOKIE'
+		'body': """APEX_CUSTOM_AUTH.GET_SESSION_ID_FROM_COOKIE"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_USER-Function.htm
+	'APEX_CUSTOM_AUTH.GET_USER':
+		'prefix': 'APEX_CUSTOM_AUTH.GET_USER'
+		'body': """APEX_CUSTOM_AUTH.GET_USER"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_USERNAME-Function.htm
+	'APEX_CUSTOM_AUTH.GET_USERNAME':
+		'prefix': 'APEX_CUSTOM_AUTH.GET_USERNAME'
+		'body': """APEX_CUSTOM_AUTH.GET_USERNAME"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/IS_SESSION_VALID-Function.htm
+	'APEX_CUSTOM_AUTH.IS_SESSION_VALID':
+		'prefix': 'APEX_CUSTOM_AUTH.IS_SESSION_VALID'
+		'body': """APEX_CUSTOM_AUTH.IS_SESSION_VALID"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/LOGIN-Procedure-2.htm
+	'APEX_CUSTOM_AUTH.LOGIN':
+		'prefix': 'APEX_CUSTOM_AUTH.LOGIN'
+		'body': """APEX_CUSTOM_AUTH.LOGIN(
+	uname => $1,
+	password => $2,
+	session_id => $3,
+	app_page => $4,
+	entry_point => $5,
+	preserve_case => $6
+);$7"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/LOGOUT-Procedure-DEPRECATED.htm
+	'APEX_CUSTOM_AUTH.LOGOUT':
+		'prefix': 'APEX_CUSTOM_AUTH.LOGOUT'
+		'body': """APEX_CUSTOM_AUTH.LOGOUT(
+	this_app => $1,
+	next_app_page_sess => $2,
+	next_url => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/POST_LOGIN-Procedure-2.htm
+	'APEX_CUSTOM_AUTH.POST_LOGIN':
+		'prefix': 'APEX_CUSTOM_AUTH.POST_LOGIN'
+		'body': """APEX_CUSTOM_AUTH.POST_LOGIN(
+	uname => $1,
+	session_id => $2,
+	app_page => $3,
+	preserve_case => $4
+);$5"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SESSION_ID_EXISTS-Function.htm
+	'APEX_CUSTOM_AUTH.SESSION_ID_EXISTS':
+		'prefix': 'APEX_CUSTOM_AUTH.SESSION_ID_EXISTS'
+		'body': """APEX_CUSTOM_AUTH.SESSION_ID_EXISTS"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_SESSION_ID-Procedure.htm
+	'APEX_CUSTOM_AUTH.SET_SESSION_ID':
+		'prefix': 'APEX_CUSTOM_AUTH.SET_SESSION_ID'
+		'body': """APEX_CUSTOM_AUTH.SET_SESSION_ID(
+	session_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_SESSION_ID_TO_NEXT_VALUE-Procedure.htm
+	'APEX_CUSTOM_AUTH.SET_SESSION_ID_TO_NEXT_VALUE':
+		'prefix': 'APEX_CUSTOM_AUTH.SET_SESSION_ID_TO_NEXT_VALUE'
+		'body': """APEX_CUSTOM_AUTH.SET_SESSION_ID_TO_NEXT_VALUE"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_USER-Procedure.htm
+	'APEX_CUSTOM_AUTH.SET_USER':
+		'prefix': 'APEX_CUSTOM_AUTH.SET_USER'
+		'body': """APEX_CUSTOM_AUTH.SET_USER(
+	user => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DISABLE-Procedure.htm
+	'APEX_DEBUG.DISABLE':
+		'prefix': 'APEX_DEBUG.DISABLE'
+		'body': """APEX_DEBUG.DISABLE"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DISABLE_DBMS_OUTPUT-Procedure.htm
+	'DISABLE_DBMS_OUTPUT':
+		'prefix': 'DISABLE_DBMS_OUTPUT'
+		'body': """DISABLE_DBMS_OUTPUT"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ENABLE-Procedure.htm
+	'APEX_DEBUG.ENABLE':
+		'prefix': 'APEX_DEBUG.ENABLE'
+		'body': """APEX_DEBUG.ENABLE(
+	level => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ENTER-Procedure.htm
+	'APEX_DEBUG.ENTER':
+		'prefix': 'APEX_DEBUG.ENTER'
+		'body': """APEX_DEBUG.ENTER(
+routine_name => $1,
+name01 => $2,
+value01 => $3,
+name02 => $4,
+value02 => $5,
+name03 => $6,
+value03 => $7,
+name04 => $8,
+value04 => $9,
+name05 => $10,
+value05 => $11,
+name06 => $12,
+value06 => $13,
+name07 => $14,
+value07 => $15,
+name08 => $16,
+value08 => $17,
+name09 => $18,
+value09 => $19,
+name10 => $20,
+value10 => $21,
+value_max_length => $22
+);$23"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ENABLE_DBMS_OUTPUT-Procedure.htm
+	'ENABLE_DBMS_OUTPUT':
+		'prefix': 'ENABLE_DBMS_OUTPUT'
+		'body': """ENABLE_DBMS_OUTPUT(
+	prefix => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ERROR-Procedure.htm
+	'APEX_DEBUG.ERROR':
+		'prefix': 'APEX_DEBUG.ERROR'
+		'body': """APEX_DEBUG.ERROR(
+	message => $1,
+    p0 IN VARCHAR2 DEFAULT NULL,
+    p1 IN VARCHAR2 DEFAULT NULL,
+    p2 IN VARCHAR2 DEFAULT NULL,
+    p3 IN VARCHAR2 DEFAULT NULL,
+    p4 IN VARCHAR2 DEFAULT NULL,
+    p5 IN VARCHAR2 DEFAULT NULL,
+    p6 IN VARCHAR2 DEFAULT NULL,
+    p7 IN VARCHAR2 DEFAULT NULL,
+    p8 IN VARCHAR2 DEFAULT NULL,
+    p9 IN VARCHAR2 DEFAULT NULL,
+	max_length => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/INFO-Procedure.htm
+	'APEX_DEBUG.INFO':
+		'prefix': 'APEX_DEBUG.INFO'
+		'body': """APEX_DEBUG.INFO(
+	message => $1,
+    p0 IN VARCHAR2 DEFAULT NULL,
+    p1 IN VARCHAR2 DEFAULT NULL,
+    p2 IN VARCHAR2 DEFAULT NULL,
+    p3 IN VARCHAR2 DEFAULT NULL,
+    p4 IN VARCHAR2 DEFAULT NULL,
+    p5 IN VARCHAR2 DEFAULT NULL,
+    p6 IN VARCHAR2 DEFAULT NULL,
+    p7 IN VARCHAR2 DEFAULT NULL,
+    p8 IN VARCHAR2 DEFAULT NULL,
+    p9 IN VARCHAR2 DEFAULT NULL,
+	max_length => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/LOG_DBMS_OUTPUT-Procedure.htm
+	'APEX_DEBUG.LOG_DBMS_OUTPUT':
+		'prefix': 'APEX_DEBUG.LOG_DBMS_OUTPUT'
+		'body': """APEX_DEBUG.LOG_DBMS_OUTPUT"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/LOG_LONG_MESSAGE-Procedure.htm
+	'APEX_DEBUG.LOG_LONG_MESSAGE':
+		'prefix': 'APEX_DEBUG.LOG_LONG_MESSAGE'
+		'body': """APEX_DEBUG.LOG_LONG_MESSAGE(
+	message => $1,
+	enabled => $2,
+	level => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/LOG_MESSAGE-Procedure-Deprecated.htm
+	'APEX_DEBUG.LOG_MESSAGE':
+		'prefix': 'APEX_DEBUG.LOG_MESSAGE'
+		'body': """APEX_DEBUG.LOG_MESSAGE(
+	message => $1,
+	enabled => $2,
+	level => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/LOG_PAGE_SESSION_STATE-Procedure.htm
+	'APEX_DEBUG.LOG_PAGE_SESSION_STATE':
+		'prefix': 'APEX_DEBUG.LOG_PAGE_SESSION_STATE'
+		'body': """APEX_DEBUG.LOG_PAGE_SESSION_STATE(
+	page_id => $1,
+	enabled => $2,
+	level => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/MESSAGE-Procedure.htm
+	'APEX_DEBUG.MESSAGE':
+		'prefix': 'APEX_DEBUG.MESSAGE'
+		'body': """APEX_DEBUG.MESSAGE(
+	message => $1,
+    p0  IN VARCHAR2 DEFAULT NULL,
+    p1  IN VARCHAR2 DEFAULT NULL,
+    p2  IN VARCHAR2 DEFAULT NULL,
+    p3  IN VARCHAR2 DEFAULT NULL,
+    p4  IN VARCHAR2 DEFAULT NULL,
+    p5  IN VARCHAR2 DEFAULT NULL,
+    p6  IN VARCHAR2 DEFAULT NULL,
+    p7  IN VARCHAR2 DEFAULT NULL,
+    p8  IN VARCHAR2 DEFAULT NULL,
+    p9  IN VARCHAR2 DEFAULT NULL,
+    p10 IN VARCHAR2 DEFAULT NULL,
+    p11 IN VARCHAR2 DEFAULT NULL,
+    p12 IN VARCHAR2 DEFAULT NULL,
+    p13 IN VARCHAR2 DEFAULT NULL,
+    p14 IN VARCHAR2 DEFAULT NULL,
+    p15 IN VARCHAR2 DEFAULT NULL,
+    p16 IN VARCHAR2 DEFAULT NULL,
+    p17 IN VARCHAR2 DEFAULT NULL,
+    p18 IN VARCHAR2 DEFAULT NULL,
+    p19 IN VARCHAR2 DEFAULT NULL,
+	max_length => $2,
+	level => $3,
+	force => $4
+);$5"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REMOVE_DEBUG_BY_AGE-Procedure.htm
+	'APEX_DEBUG.REMOVE_DEBUG_BY_AGE':
+		'prefix': 'APEX_DEBUG.REMOVE_DEBUG_BY_AGE'
+		'body': """APEX_DEBUG.REMOVE_DEBUG_BY_AGE(
+	application_id => $1,
+	older_than_days => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REMOVE_DEBUG_BY_APP-Procedure.htm
+	'APEX_DEBUG.REMOVE_DEBUG_BY_APP':
+		'prefix': 'APEX_DEBUG.REMOVE_DEBUG_BY_APP'
+		'body': """APEX_DEBUG.REMOVE_DEBUG_BY_APP(
+	application_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REMOVE_DEBUG_BY_VIEW-Procedure.htm
+	'APEX_DEBUG.REMOVE_DEBUG_BY_VIEW':
+		'prefix': 'APEX_DEBUG.REMOVE_DEBUG_BY_VIEW'
+		'body': """APEX_DEBUG.REMOVE_DEBUG_BY_VIEW(
+	application_id => $1,
+	view_id => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REMOVE_SESSION_MESSAGES-Procedure.htm
+	'APEX_DEBUG.REMOVE_SESSION_MESSAGES':
+		'prefix': 'APEX_DEBUG.REMOVE_SESSION_MESSAGES'
+		'body': """APEX_DEBUG.REMOVE_SESSION_MESSAGES(
+	session => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/TOCHAR-Function.htm
+	'APEX_DEBUG.TOCHAR':
+		'prefix': 'APEX_DEBUG.TOCHAR'
+		'body': """APEX_DEBUG.TOCHAR(
+	value => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/TRACE-Procedure.htm
+	'APEX_DEBUG.TRACE':
+		'prefix': 'APEX_DEBUG.TRACE'
+		'body': """APEX_DEBUG.TRACE(
+	message => $1,
+    p0 IN VARCHAR2 DEFAULT NULL,
+    p1 IN VARCHAR2 DEFAULT NULL,
+    p2 IN VARCHAR2 DEFAULT NULL,
+    p3 IN VARCHAR2 DEFAULT NULL,
+    p4 IN VARCHAR2 DEFAULT NULL,
+    p5 IN VARCHAR2 DEFAULT NULL,
+    p6 IN VARCHAR2 DEFAULT NULL,
+    p7 IN VARCHAR2 DEFAULT NULL,
+    p8 IN VARCHAR2 DEFAULT NULL,
+    p9 IN VARCHAR2 DEFAULT NULL,
+	max_length => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/WARN-Procedure.htm
+	'APEX_DEBUG.WARN':
+		'prefix': 'APEX_DEBUG.WARN'
+		'body': """APEX_DEBUG.WARN(
+	message => $1,
+    p0 IN VARCHAR2 DEFAULT NULL,
+    p1 IN VARCHAR2 DEFAULT NULL,
+    p2 IN VARCHAR2 DEFAULT NULL,
+    p3 IN VARCHAR2 DEFAULT NULL,
+    p4 IN VARCHAR2 DEFAULT NULL,
+    p5 IN VARCHAR2 DEFAULT NULL,
+    p6 IN VARCHAR2 DEFAULT NULL,
+    p7 IN VARCHAR2 DEFAULT NULL,
+    p8 IN VARCHAR2 DEFAULT NULL,
+    p9 IN VARCHAR2 DEFAULT NULL,
+	max_length => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/HTML-Function.htm
+	'APEX_ESCAPE.HTML':
+		'prefix': 'APEX_ESCAPE.HTML'
+		'body': """APEX_ESCAPE.HTML(
+	string => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/HTML_ATTRIBUTE-Function.htm
+	'APEX_ESCAPE.HTML_ATTRIBUTE':
+		'prefix': 'APEX_ESCAPE.HTML_ATTRIBUTE'
+		'body': """APEX_ESCAPE.HTML_ATTRIBUTE(
+	string => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/HTML_TRUNC-Function.htm
+	'APEX_ESCAPE.HTML_TRUNC':
+		'prefix': 'APEX_ESCAPE.HTML_TRUNC'
+		'body': """APEX_ESCAPE.HTML_TRUNC(
+	string => $1,
+	length => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/HTML_WHITELIST-Function.htm
+	'APEX_ESCAPE.HTML_WHITELIST':
+		'prefix': 'APEX_ESCAPE.HTML_WHITELIST'
+		'body': """APEX_ESCAPE.HTML_WHITELIST(
+	html => $1,
+	whitelist_tags => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/JS_LITERAL-Function.htm
+	'APEX_ESCAPE.JS_LITERAL':
+		'prefix': 'APEX_ESCAPE.JS_LITERAL'
+		'body': """APEX_ESCAPE.JS_LITERAL(
+	string => $1,
+	quote => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/JSON-Function.htm
+	'APEX_ESCAPE.JSON':
+		'prefix': 'APEX_ESCAPE.JSON'
+		'body': """APEX_ESCAPE.JSON(
+	string => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/LDAP_DN-Function.htm
+	'APEX_ESCAPE.LDAP_DN':
+		'prefix': 'APEX_ESCAPE.LDAP_DN'
+		'body': """APEX_ESCAPE.LDAP_DN(
+	string => $1,
+	reserved_chars => $2,
+	escaped_non_ascii => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/LDAP_SEARCH_FILTER-Function.htm
+	'APEX_ESCAPE.LDAP_SEARCH_FILTER':
+		'prefix': 'APEX_ESCAPE.LDAP_SEARCH_FILTER'
+		'body': """APEX_ESCAPE.LDAP_SEARCH_FILTER(
+	string => $1,
+	reserved_chars => $2,
+	escape_non_ascii => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/NOOP-Function.htm
+	'APEX_ESCAPE.NOOP':
+		'prefix': 'APEX_ESCAPE.NOOP'
+		'body': """APEX_ESCAPE.NOOP(
+	string => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REGEXP-Function.htm
+	'APEX_ESCAPE.REGEXP':
+		'prefix': 'APEX_ESCAPE.REGEXP'
+		'body': """APEX_ESCAPE.REGEXP(
+	string => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_HTML_ESCAPING_MODE-Procedure.htm
+	'APEX_ESCAPE.SET_HTML_ESCAPING_MODE':
+		'prefix': 'APEX_ESCAPE.SET_HTML_ESCAPING_MODE'
+		'body': """APEX_ESCAPE.SET_HTML_ESCAPING_MODE(
+	mode => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_ERROR-Procedure-Signature-1.htm
+	'APEX_ERROR.ADD_ERROR':
+		'prefix': 'APEX_ERROR.ADD_ERROR'
+		'body': """APEX_ERROR.ADD_ERROR(
+	message => $1,
+	additional_info => $2,
+	display_location => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/AUTO_SET_ASSOCIATED_ITEM-Procedure.htm
+	'APEX_ERROR.AUTO_SET_ASSOCIATED_ITEM':
+		'prefix': 'APEX_ERROR.AUTO_SET_ASSOCIATED_ITEM'
+		'body': """APEX_ERROR.AUTO_SET_ASSOCIATED_ITEM(
+	error_result => $1,
+	error => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/EXTRACT_CONSTRAINT_NAME-Function.htm
+	'APEX_ERROR.EXTRACT_CONSTRAINT_NAME':
+		'prefix': 'APEX_ERROR.EXTRACT_CONSTRAINT_NAME'
+		'body': """APEX_ERROR.EXTRACT_CONSTRAINT_NAME(
+	error => $1,
+	include_schema => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_ARIA_ERROR_ATTRIBUTES-Function.htm
+	'FUNCTION':
+		'prefix': 'FUNCTION'
+		'body': """FUNCTION(
+	item_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_FIRST_ORA_ERROR_TEXT-Function.htm
+	'APEX_ERROR.GET_FIRST_ORA_ERROR_TEXT':
+		'prefix': 'APEX_ERROR.GET_FIRST_ORA_ERROR_TEXT'
+		'body': """APEX_ERROR.GET_FIRST_ORA_ERROR_TEXT(
+	error => $1,
+	include_error_no => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/INIT_ERROR_RESULT-Function.htm
+	'APEX_ERROR.INIT_ERROR_RESULT':
+		'prefix': 'APEX_ERROR.INIT_ERROR_RESULT'
+		'body': """APEX_ERROR.INIT_ERROR_RESULT(
+	error => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_SCHEMA-Procedure.htm
+	'APEX_INSTANCE_ADMIN.ADD_SCHEMA':
+		'prefix': 'APEX_INSTANCE_ADMIN.ADD_SCHEMA'
+		'body': """APEX_INSTANCE_ADMIN.ADD_SCHEMA(
+	workspace => $1,
+	schema => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_WORKSPACE-Procedure.htm
+	'APEX_INSTANCE_ADMIN.ADD_WORKSPACE':
+		'prefix': 'APEX_INSTANCE_ADMIN.ADD_WORKSPACE'
+		'body': """APEX_INSTANCE_ADMIN.ADD_WORKSPACE(
+	workspace_id => $1,
+	workspace => $2,
+	source_identifier => $3,
+	primary_schema => $4,
+	additional_schemas => $5,
+	rm_consumer_group => $6
+);$7"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CREATE_SCHEMA_EXCEPTION-Procedure.htm
+	'APEX_INSTANCE_ADMIN.CREATE_SCHEMA_EXCEPTION':
+		'prefix': 'APEX_INSTANCE_ADMIN.CREATE_SCHEMA_EXCEPTION'
+		'body': """APEX_INSTANCE_ADMIN.CREATE_SCHEMA_EXCEPTION(
+	schema => $1,
+	workspace => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/FREE_WORKSPACE_APP_IDS-Procedure.htm
+	'APEX_INSTANCE_ADMIN.FREE_WORKSPACE_APP_IDS':
+		'prefix': 'APEX_INSTANCE_ADMIN.FREE_WORKSPACE_APP_IDS'
+		'body': """APEX_INSTANCE_ADMIN.FREE_WORKSPACE_APP_IDS(
+	workspace_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_PARAMETER-Function.htm
+	'APEX_INSTANCE_ADMIN.GET_PARAMETER':
+		'prefix': 'APEX_INSTANCE_ADMIN.GET_PARAMETER'
+		'body': """APEX_INSTANCE_ADMIN.GET_PARAMETER(
+	parameter => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_SCHEMAS-Function.htm
+	'APEX_INSTANCE_ADMIN.GET_SCHEMAS':
+		'prefix': 'APEX_INSTANCE_ADMIN.GET_SCHEMAS'
+		'body': """APEX_INSTANCE_ADMIN.GET_SCHEMAS(
+	workspace => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_WORKSPACE_PARAMETER.htm
+	'GET_WORKSPACE_PARAMETER':
+		'prefix': 'GET_WORKSPACE_PARAMETER'
+		'body': """GET_WORKSPACE_PARAMETER(
+	workspace => $1,
+	parameter => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REMOVE_APPLICATION-Procedure.htm
+	'APEX_INSTANCE_ADMIN.REMOVE_APPLICATION':
+		'prefix': 'APEX_INSTANCE_ADMIN.REMOVE_APPLICATION'
+		'body': """APEX_INSTANCE_ADMIN.REMOVE_APPLICATION(
+	application_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REMOVE_SAVED_REPORT-Procedure.htm
+	'APEX_INSTANCE_ADMIN.REMOVE_SAVED_REPORT':
+		'prefix': 'APEX_INSTANCE_ADMIN.REMOVE_SAVED_REPORT'
+		'body': """APEX_INSTANCE_ADMIN.REMOVE_SAVED_REPORT(
+	application_id => $1,
+	report_id => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REMOVE_SAVED_REPORTS-Procedure.htm
+	'APEX_INSTANCE_ADMIN.REMOVE_SAVED_REPORTS':
+		'prefix': 'APEX_INSTANCE_ADMIN.REMOVE_SAVED_REPORTS'
+		'body': """APEX_INSTANCE_ADMIN.REMOVE_SAVED_REPORTS(
+	application_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REMOVE_SCHEMA-Procedure.htm
+	'APEX_INSTANCE_ADMIN.REMOVE_SCHEMA':
+		'prefix': 'APEX_INSTANCE_ADMIN.REMOVE_SCHEMA'
+		'body': """APEX_INSTANCE_ADMIN.REMOVE_SCHEMA(
+	workspace => $1,
+	schema => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REMOVE_SCHEMA_EXCEPTION-Procedure.htm
+	'APEX_INSTANCE_ADMIN.REMOVE_SCHEMA_EXCEPTION':
+		'prefix': 'APEX_INSTANCE_ADMIN.REMOVE_SCHEMA_EXCEPTION'
+		'body': """APEX_INSTANCE_ADMIN.REMOVE_SCHEMA_EXCEPTION(
+	schema => $1,
+	workspace => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REMOVE_SCHEMA_EXCEPTIONS-Procedure.htm
+	'APEX_INSTANCE_ADMIN.REMOVE_SCHEMA_EXCEPTIONS':
+		'prefix': 'APEX_INSTANCE_ADMIN.REMOVE_SCHEMA_EXCEPTIONS'
+		'body': """APEX_INSTANCE_ADMIN.REMOVE_SCHEMA_EXCEPTIONS(
+	schema => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REMOVE_SUBSCRIPTION-Procedure.htm
+	'APEX_INSTANCE_ADMIN.REMOVE_SUBSCRIPTION':
+		'prefix': 'APEX_INSTANCE_ADMIN.REMOVE_SUBSCRIPTION'
+		'body': """APEX_INSTANCE_ADMIN.REMOVE_SUBSCRIPTION(
+	subscription_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REMOVE_WORKSPACE-Procedure.htm
+	'APEX_INSTANCE_ADMIN.REMOVE_WORKSPACE':
+		'prefix': 'APEX_INSTANCE_ADMIN.REMOVE_WORKSPACE'
+		'body': """APEX_INSTANCE_ADMIN.REMOVE_WORKSPACE(
+	workspace => $1,
+	drop_users => $2,
+	drop_tablespaces => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REMOVE_WORKSPACE_EXCEPTIONS-Procedure.htm
+	'APEX_INSTANCE_ADMIN.REMOVE_WORKSPACE_EXCEPTIONS':
+		'prefix': 'APEX_INSTANCE_ADMIN.REMOVE_WORKSPACE_EXCEPTIONS'
+		'body': """APEX_INSTANCE_ADMIN.REMOVE_WORKSPACE_EXCEPTIONS(	workspace => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/RESERVE_WORKSPACE_APP_IDS-Procedure.htm
+	'APEX_INSTANCE_ADMIN.RESERVE_WORKSPACE_APP_IDS':
+		'prefix': 'APEX_INSTANCE_ADMIN.RESERVE_WORKSPACE_APP_IDS'
+		'body': """APEX_INSTANCE_ADMIN.RESERVE_WORKSPACE_APP_IDS(
+	workspace_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/RESTRICT_SCHEMA-Procedure.htm
+	'APEX_INSTANCE_ADMIN.RESTRICT_SCHEMA':
+		'prefix': 'APEX_INSTANCE_ADMIN.RESTRICT_SCHEMA'
+		'body': """APEX_INSTANCE_ADMIN.RESTRICT_SCHEMA(
+	schema => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_LOG_SWITCH_INTERVAL-Procedure.htm
+	'APEX_INSTANCE_ADMIN.SET_LOG_SWITCH_INTERVAL':
+		'prefix': 'APEX_INSTANCE_ADMIN.SET_LOG_SWITCH_INTERVAL'
+		'body': """APEX_INSTANCE_ADMIN.SET_LOG_SWITCH_INTERVAL(
+	log_name => $1,
+	log_switch_after_days => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_WORKSPACE_PARAMETER.htm
+	'SET_WORKSPACE_PARAMETER':
+		'prefix': 'SET_WORKSPACE_PARAMETER'
+		'body': """SET_WORKSPACE_PARAMETER(
+	workspace => $1,
+	parameter => $2,
+	value => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_PARAMETER-Procedure.htm
+	'APEX_INSTANCE_ADMIN.SET_PARAMETER':
+		'prefix': 'APEX_INSTANCE_ADMIN.SET_PARAMETER'
+		'body': """APEX_INSTANCE_ADMIN.SET_PARAMETER(
+	parameter => $1,
+	value => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_WORKSPACE_CONSUMER_GROUP-Procedure.htm
+	'SET_WORKSPACE_CONSUMER_GROUP':
+		'prefix': 'SET_WORKSPACE_CONSUMER_GROUP'
+		'body': """SET_WORKSPACE_CONSUMER_GROUP(
+	workspace => $1,
+	rm_consumer_group => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/TRUNCATE_LOG-Procedure.htm
+	'APEX_INSTANCE_ADMIN.TRUNCATE_LOG':
+		'prefix': 'APEX_INSTANCE_ADMIN.TRUNCATE_LOG'
+		'body': """APEX_INSTANCE_ADMIN.TRUNCATE_LOG(
+	log => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UNRESTRICT_SCHEMA-Procedure.htm
+	'APEX_INSTANCE_ADMIN.UNRESTRICT_SCHEMA':
+		'prefix': 'APEX_INSTANCE_ADMIN.UNRESTRICT_SCHEMA'
+		'body': """APEX_INSTANCE_ADMIN.UNRESTRICT_SCHEMA(
+	schema => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_FILTER-Procedure-Signature-1.htm
+	'APEX_IR.ADD_FILTER':
+		'prefix': 'APEX_IR.ADD_FILTER'
+		'body': """APEX_IR.ADD_FILTER(
+	page_id => $1,
+	region_id => $2,
+	report_column => $3,
+	filter_value => $4,
+	operator_abbr => $5,
+	report_id => $6
+);$7"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CHANGE_SUBSCRIPTION_EMAIL-Procedure.htm
+	'APEX_IR.CHANGE_SUBSCRIPTION_EMAIL':
+		'prefix': 'APEX_IR.CHANGE_SUBSCRIPTION_EMAIL'
+		'body': """APEX_IR.CHANGE_SUBSCRIPTION_EMAIL(
+	subscription_id => $1,
+	email_address => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CHANGE_REPORT_OWNER-Procedure.htm
+	'APEX_IR.CHANGE_REPORT_OWNER':
+		'prefix': 'APEX_IR.CHANGE_REPORT_OWNER'
+		'body': """APEX_IR.CHANGE_REPORT_OWNER(
+	report_id => $1,
+	old_owner => $2,
+	new_owner => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CHANGE_SUBSCRIPTION_LANG-Procedure.htm
+	'APEX_IR.CHANGE_SUBSCRIPTION_LANG':
+		'prefix': 'APEX_IR.CHANGE_SUBSCRIPTION_LANG'
+		'body': """APEX_IR.CHANGE_SUBSCRIPTION_LANG(
+	subscription_id => $1,
+	language => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CLEAR_REPORT-Procedure-Signature-1.htm
+	'APEX_IR.CLEAR_REPORT':
+		'prefix': 'APEX_IR.CLEAR_REPORT'
+		'body': """APEX_IR.CLEAR_REPORT(
+	page_id => $1,
+	region_id => $2,
+	report_id => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DELETE_REPORT-Procedure.htm
+	'APEX_IR.DELETE_REPORT':
+		'prefix': 'APEX_IR.DELETE_REPORT'
+		'body': """APEX_IR.DELETE_REPORT(
+	report_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DELETE_SUBSCRIPTION-Procedure.htm
+	'APEX_IR.DELETE_SUBSCRIPTION':
+		'prefix': 'APEX_IR.DELETE_SUBSCRIPTION'
+		'body': """APEX_IR.DELETE_SUBSCRIPTION(
+	subscription_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_LAST_VIEWED_REPORT_ID-Function.htm
+	'APEX_IR.GET_LAST_VIEWED_REPORT_ID':
+		'prefix': 'APEX_IR.GET_LAST_VIEWED_REPORT_ID'
+		'body': """APEX_IR.GET_LAST_VIEWED_REPORT_ID(
+	page_id => $1,
+	region_id => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_REPORT-Function.htm
+	'APEX_IR.GET_REPORT':
+		'prefix': 'APEX_IR.GET_REPORT'
+		'body': """APEX_IR.GET_REPORT(
+	page_id => $1,
+	region_id => $2,
+	report_id => $3,
+	view => $4
+);$5"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/RESET_REPORT-Procedure-Signature-1.htm
+	'APEX_IR.RESET_REPORT':
+		'prefix': 'APEX_IR.RESET_REPORT'
+		'body': """APEX_IR.RESET_REPORT(
+	page_id => $1,
+	region_id => $2,
+	report_id => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CHECKBOX2-Function.htm
+	'APEX_ITEM.CHECKBOX2':
+		'prefix': 'APEX_ITEM.CHECKBOX2'
+		'body': """APEX_ITEM.CHECKBOX2(
+	idx => $1,
+	value => $2,
+	attributes => $3,
+	checked_values => $4,
+	checked_values_delimiter => $5,
+	item_id => $6,
+	item_label => $7
+);$8"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DATE_POPUP-Function.htm
+	'APEX_ITEM.DATE_POPUP':
+		'prefix': 'APEX_ITEM.DATE_POPUP'
+		'body': """APEX_ITEM.DATE_POPUP(
+	idx => $1,
+	row => $2,
+	value => $3,
+	date_format => $4,
+	size => $5,
+	maxlength => $6,
+	attributes => $7,
+	item_id => $8,
+	item_label => $9
+);$10"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DATE_POPUP2-Function.htm
+	'APEX_ITEM.DATE_POPUP2':
+		'prefix': 'APEX_ITEM.DATE_POPUP2'
+		'body': """APEX_ITEM.DATE_POPUP2(
+	idx => $1,
+	value => $2,
+	date_format => $3,
+	size => $4,
+	maxLength => $5,
+	attributes => $6,
+	item_id => $7,
+	item_label => $8,
+	default_value => $9,
+	max_value => $10,
+	min_value => $11,
+	show_on => $12,
+	number_of_months => $13,
+	navigation_list_for => $14,
+	year_range => $15,
+	validation_date => $16
+);$17"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DISPLAY_AND_SAVE-Function.htm
+	'APEX_ITEM.DISPLAY_AND_SAVE':
+		'prefix': 'APEX_ITEM.DISPLAY_AND_SAVE'
+		'body': """APEX_ITEM.DISPLAY_AND_SAVE(
+	idx => $1,
+	value => $2,
+	item_id => $3,
+	item_label => $4
+);$5"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/HIDDEN-Function.htm
+	'APEX_ITEM.HIDDEN':
+		'prefix': 'APEX_ITEM.HIDDEN'
+		'body': """APEX_ITEM.HIDDEN(
+	idx => $1,
+	value => $2,
+	attributes => $3,
+	item_id => $4,
+	item_label => $5
+);$6"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/MD5_CHECKSUM-Function.htm
+	'APEX_ITEM.MD5_CHECKSUM':
+		'prefix': 'APEX_ITEM.MD5_CHECKSUM'
+		'body': """APEX_ITEM.MD5_CHECKSUM(
+	value01 => $1,
+	value02 => $2,
+	value03 => $3,
+    ...
+	value50 => $4,
+	col_sep => $5,
+	item_id => $6
+);$7"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/MD5_HIDDEN-Function.htm
+	'APEX_ITEM.MD5_HIDDEN':
+		'prefix': 'APEX_ITEM.MD5_HIDDEN'
+		'body': """APEX_ITEM.MD5_HIDDEN(
+	idx => $1,
+	value01 => $2,
+	value02 => $3,
+	value03 => $4,
+    ...
+	value50 => $5,
+	col_sep => $6,
+	item_id => $7
+);$8"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/POPUP_FROM_LOV-Function.htm
+	'APEX_ITEM.POPUP_FROM_LOV':
+		'prefix': 'APEX_ITEM.POPUP_FROM_LOV'
+		'body': """APEX_ITEM.POPUP_FROM_LOV(
+	idx => $1,
+	value => $2,
+	lov_name => $3,
+	width => $4,
+	max_length => $5,
+	form_index => $6,
+	escape_html => $7,
+	max_elements => $8,
+	attributes => $9,
+	ok_to_query => $10,
+	item_id => $11,
+	item_label => $12
+);$13"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/POPUP_FROM_QUERY-Function.htm
+	'APEX_ITEM.POPUP_FROM_QUERY':
+		'prefix': 'APEX_ITEM.POPUP_FROM_QUERY'
+		'body': """APEX_ITEM.POPUP_FROM_QUERY(
+
+	idx => $1,
+	value => $2,
+	lov_query => $3,
+	width => $4,
+	max_length => $5,
+	form_index => $6,
+	escape_html => $7,
+	max_elements => $8,
+	attributes => $9,
+	ok_to_query => $10,
+	item_id => $11,
+	item_label => $12
+);$13"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/POPUPKEY_FROM_LOV-Function.htm
+	'APEX_ITEM.POPUPKEY_FROM_LOV':
+		'prefix': 'APEX_ITEM.POPUPKEY_FROM_LOV'
+		'body': """APEX_ITEM.POPUPKEY_FROM_LOV(
+	idx => $1,
+	value => $2,
+	lov_name => $3,
+	width => $4,
+	max_length => $5,
+	form_index => $6,
+	escape_html => $7,
+	max_elements => $8,
+	attributes => $9,
+	ok_to_query => $10,
+	item_id => $11,
+	item_label => $12
+);$13"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/POPUPKEY_FROM_QUERY-Function.htm
+	'APEX_ITEM.POPUPKEY_FROM_QUERY':
+		'prefix': 'APEX_ITEM.POPUPKEY_FROM_QUERY'
+		'body': """APEX_ITEM.POPUPKEY_FROM_QUERY(
+	idx => $1,
+	value => $2,
+	lov_query => $3,
+	width => $4,
+	max_length => $5,
+	form_index => $6,
+	escape_html => $7,
+	max_elements => $8,
+	attributes => $9,
+	ok_to_query => $10,
+	item_id => $11,
+	item_label => $12
+);$13"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/RADIOGROUP-Function.htm
+	'APEX_ITEM.RADIOGROUP':
+		'prefix': 'APEX_ITEM.RADIOGROUP'
+		'body': """APEX_ITEM.RADIOGROUP(
+	idx => $1,
+	value => $2,
+	selected_value => $3,
+	display => $4,
+	attributes => $5,
+	onblur => $6,
+	onchange => $7,
+	onfocus => $8,
+	item_id => $9,
+	item_label => $10
+);$11"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SELECT_LIST-Function.htm
+	'APEX_ITEM.SELECT_LIST':
+		'prefix': 'APEX_ITEM.SELECT_LIST'
+		'body': """APEX_ITEM.SELECT_LIST(
+	idx => $1,
+	value => $2,
+	list_values => $3,
+	attributes => $4,
+	show_null => $5,
+	null_value => $6,
+	null_text => $7,
+	item_id => $8,
+	item_label => $9,
+	show_extra => $10
+);$11"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SELECT_LIST_FROM_LOV-Function.htm
+	'APEX_ITEM.SELECT_LIST_FROM_LOV':
+		'prefix': 'APEX_ITEM.SELECT_LIST_FROM_LOV'
+		'body': """APEX_ITEM.SELECT_LIST_FROM_LOV(
+	idx => $1,
+	value => $2,
+	lov => $3,
+	attributes => $4,
+	show_null => $5,
+	null_value => $6,
+	null_text => $7,
+	item_id => $8,
+	item_label => $9,
+	show_extra => $10
+);$11"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SELECT_LIST_FROM_LOV_XL-Function.htm
+	'APEX_ITEM.SELECT_LIST_FROM_LOV_XL':
+		'prefix': 'APEX_ITEM.SELECT_LIST_FROM_LOV_XL'
+		'body': """APEX_ITEM.SELECT_LIST_FROM_LOV_XL(
+	idx => $1,
+	value => $2,
+	lov => $3,
+	attributes => $4,
+	show_null => $5,
+	null_value => $6,
+	null_text => $7,
+	item_id => $8,
+	item_label => $9,
+	show_extra => $10
+);$11"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SELECT_LIST_FROM_QUERY-Function.htm
+	'APEX_ITEM.SELECT_LIST_FROM_QUERY':
+		'prefix': 'APEX_ITEM.SELECT_LIST_FROM_QUERY'
+		'body': """APEX_ITEM.SELECT_LIST_FROM_QUERY(
+	idx => $1,
+	value => $2,
+	query => $3,
+	attributes => $4,
+	show_null => $5,
+	null_value => $6,
+	null_text => $7,
+	item_id => $8,
+	item_label => $9,
+	show_extra => $10
+);$11"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SELECT_LIST_FROM_QUERY_XL-Function.htm
+	'APEX_ITEM.SELECT_LIST_FROM_QUERY_XL':
+		'prefix': 'APEX_ITEM.SELECT_LIST_FROM_QUERY_XL'
+		'body': """APEX_ITEM.SELECT_LIST_FROM_QUERY_XL(
+	idx => $1,
+	value => $2,
+	query => $3,
+	attributes => $4,
+	show_null => $5,
+	null_value => $6,
+	null_text => $7,
+	item_id => $8,
+	item_label => $9,
+	show_extra => $10
+);$11"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SWITCH-Function.htm
+	'APEX_ITEM.SWITCH':
+		'prefix': 'APEX_ITEM.SWITCH'
+		'body': """APEX_ITEM.SWITCH(
+	idx => $1,
+	value => $2,
+	on_value => $3,
+	on_label => $4,
+	off_value => $5,
+	off_label => $6,
+	item_id => $7,
+	item_label => $8,
+	attributes => $9
+);$10"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/TEXT-Function.htm
+	'APEX_ITEM.TEXT':
+		'prefix': 'APEX_ITEM.TEXT'
+		'body': """APEX_ITEM.TEXT(
+	idx => $1,
+	value => $2,
+	size => $3,
+	maxlength => $4,
+	attributes => $5,
+	item_id => $6,
+	item_label => $7
+);$8"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/TEXTAREA-Function.htm
+	'APEX_ITEM.TEXTAREA':
+		'prefix': 'APEX_ITEM.TEXTAREA'
+		'body': """APEX_ITEM.TEXTAREA(
+	idx => $1,
+	value => $2,
+	rows => $3,
+	cols => $4,
+	attributes => $5,
+	item_id => $6,
+	item_label => $7
+);$8"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/TEXT_FROM_LOV-Function.htm
+	'APEX_ITEM.TEXT_FROM_LOV':
+		'prefix': 'APEX_ITEM.TEXT_FROM_LOV'
+		'body': """APEX_ITEM.TEXT_FROM_LOV(
+	value => $1,
+	lov => $2,
+	null_text => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/TEXT_FROM_LOV_QUERY-Function.htm
+	'APEX_ITEM.TEXT_FROM_LOV_QUERY':
+		'prefix': 'APEX_ITEM.TEXT_FROM_LOV_QUERY'
+		'body': """APEX_ITEM.TEXT_FROM_LOV_QUERY(
+	value => $1,
+	query => $2,
+	null_text => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_ATTRIBUTE-Function-Signature-1.htm
+	'APEX_JAVASCRIPT.ADD_ATTRIBUTE':
+		'prefix': 'APEX_JAVASCRIPT.ADD_ATTRIBUTE'
+		'body': """APEX_JAVASCRIPT.ADD_ATTRIBUTE(
+	name => $1,
+	value => $2,
+	omit_null => $3,
+	add_comma => $4
+);$5"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_INLINE_CODE-Procedure.htm
+	'APEX_JAVASCRIPT.ADD_INLINE_CODE':
+		'prefix': 'APEX_JAVASCRIPT.ADD_INLINE_CODE'
+		'body': """APEX_JAVASCRIPT.ADD_INLINE_CODE(
+	code => $1,
+	key => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_LIBRARY-Procedure.htm
+	'APEX_JAVASCRIPT.ADD_LIBRARY':
+		'prefix': 'APEX_JAVASCRIPT.ADD_LIBRARY'
+		'body': """APEX_JAVASCRIPT.ADD_LIBRARY(
+	name => $1,
+	directory => $2,
+	version => $3,
+	check_to_add_minified => $4,
+	skip_extension => $5,
+	ie_condition => $6,
+	requirejs_module => $7,
+	requirejs_js_expression => $8,
+	requirejs_required => $9,
+	key => $10
+);$11"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_REQUIREJS-Procedure.htm
+	'PROCEDURE':
+		'prefix': 'PROCEDURE'
+		'body': """PROCEDURE"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_REQUIREJS_DEFINE-Procedure.htm
+	'APEX_JAVASCRIPT.ADD_REQUIREJS_DEFINE':
+		'prefix': 'APEX_JAVASCRIPT.ADD_REQUIREJS_DEFINE'
+		'body': """APEX_JAVASCRIPT.ADD_REQUIREJS_DEFINE(
+	module => $1,
+	js_expression => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_ONLOAD_CODE-Procedure.htm
+	'APEX_JAVASCRIPT.ADD_ONLOAD_CODE':
+		'prefix': 'APEX_JAVASCRIPT.ADD_ONLOAD_CODE'
+		'body': """APEX_JAVASCRIPT.ADD_ONLOAD_CODE(
+	code => $1,
+	key => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_VALUE-Function-Signature-1.htm
+	'APEX_JAVASCRIPT.ADD_VALUE':
+		'prefix': 'APEX_JAVASCRIPT.ADD_VALUE'
+		'body': """APEX_JAVASCRIPT.ADD_VALUE(
+	value => $1,
+	add_comma => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/Escape-Function.htm
+	'APEX_JAVASCRIPT.ESCAPE':
+		'prefix': 'APEX_JAVASCRIPT.ESCAPE'
+		'body': """APEX_JAVASCRIPT.ESCAPE(
+	text => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CLOSE_ALL-Procedure.htm
+	'APEX_JSON.CLOSE_ALL':
+		'prefix': 'APEX_JSON.CLOSE_ALL'
+		'body': """APEX_JSON.CLOSE_ALL"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CLOSE_ARRAY-Procedure.htm
+	'APEX_JSON.CLOSE_ARRAY':
+		'prefix': 'APEX_JSON.CLOSE_ARRAY'
+		'body': """APEX_JSON.CLOSE_ARRAY(
+);$1"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CLOSE_OBJECT-Procedure.htm
+	'APEX_JSON.CLOSE_OBJECT':
+		'prefix': 'APEX_JSON.CLOSE_OBJECT'
+		'body': """APEX_JSON.CLOSE_OBJECT(
+);$1"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DOES_EXIST-Function.htm
+	'APEX_JSON.DOES_EXIST':
+		'prefix': 'APEX_JSON.DOES_EXIST'
+		'body': """APEX_JSON.DOES_EXIST(
+	path => $1,
+   p0                 IN VARCHAR2 DEFAULT NULL,
+   p1                 IN VARCHAR2 DEFAULT NULL,
+   p2                 IN VARCHAR2 DEFAULT NULL,
+   p3                 IN VARCHAR2 DEFAULT NULL,
+   p4                 IN VARCHAR2 DEFAULT NULL,
+	values => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/FIND_PATHS_LIKE-Function.htm
+	'APEX_JSON.FIND_PATHS_LIKE':
+		'prefix': 'APEX_JSON.FIND_PATHS_LIKE'
+		'body': """APEX_JSON.FIND_PATHS_LIKE(
+	return_path => $1,
+	subpath => $2,
+	value => $3,
+	values => $4
+);$5"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/FREE_OUTPUT-Procedure.htm
+	'FREE_OUTPUT':
+		'prefix': 'FREE_OUTPUT'
+		'body': """FREE_OUTPUT"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/FLUSH-Procedure.htm
+	'APEX_JSON.FLUSH':
+		'prefix': 'APEX_JSON.FLUSH'
+		'body': """APEX_JSON.FLUSH"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_BOOLEAN-Function.htm
+	'APEX_JSON.GET_BOOLEAN':
+		'prefix': 'APEX_JSON.GET_BOOLEAN'
+		'body': """APEX_JSON.GET_BOOLEAN(
+	path => $1,
+    p0                 IN VARCHAR2 DEFAULT NULL,
+    p1                 IN VARCHAR2 DEFAULT NULL,
+    p2                 IN VARCHAR2 DEFAULT NULL,
+    p3                 IN VARCHAR2 DEFAULT NULL,
+    p4                 IN VARCHAR2 DEFAULT NULL,
+	default => $2,
+	values => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_COUNT-Function.htm
+	'APEX_JSON.GET_COUNT':
+		'prefix': 'APEX_JSON.GET_COUNT'
+		'body': """APEX_JSON.GET_COUNT(
+	path => $1,
+    p0                 IN VARCHAR2 DEFAULT NULL,
+    p1                 IN VARCHAR2 DEFAULT NULL,
+    p2                 IN VARCHAR2 DEFAULT NULL,
+    p3                 IN VARCHAR2 DEFAULT NULL,
+    p4                 IN VARCHAR2 DEFAULT NULL,
+	values => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_DATE-Function.htm
+	'APEX_JSON.GET_DATE':
+		'prefix': 'APEX_JSON.GET_DATE'
+		'body': """APEX_JSON.GET_DATE(
+	path => $1,
+    p0                 IN VARCHAR2 DEFAULT NULL,
+    p1                 IN VARCHAR2 DEFAULT NULL,
+    p2                 IN VARCHAR2 DEFAULT NULL,
+    p3                 IN VARCHAR2 DEFAULT NULL,
+    p4                 IN VARCHAR2 DEFAULT NULL,
+	default => $2,
+	format => $3,
+	values => $4
+);$5"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_MEMBERS-Function.htm
+	'APEX_JSON.GET_MEMBERS':
+		'prefix': 'APEX_JSON.GET_MEMBERS'
+		'body': """APEX_JSON.GET_MEMBERS(
+	path => $1,
+    p0                 IN VARCHAR2 DEFAULT NULL,
+    p1                 IN VARCHAR2 DEFAULT NULL,
+    p2                 IN VARCHAR2 DEFAULT NULL,
+    p3                 IN VARCHAR2 DEFAULT NULL,
+    p4                 IN VARCHAR2 DEFAULT NULL,
+	values => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_NUMBER-Function.htm
+	'APEX_JSON.GET_NUMBER':
+		'prefix': 'APEX_JSON.GET_NUMBER'
+		'body': """APEX_JSON.GET_NUMBER(
+	path => $1,
+    p0                 IN VARCHAR2 DEFAULT NULL,
+    p1                 IN VARCHAR2 DEFAULT NULL,
+    p2                 IN VARCHAR2 DEFAULT NULL,
+    p3                 IN VARCHAR2 DEFAULT NULL,
+    p4                 IN VARCHAR2 DEFAULT NULL,
+	default => $2,
+	values => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_VALUE-Function.htm
+	'APEX_JSON.GET_VALUE':
+		'prefix': 'APEX_JSON.GET_VALUE'
+		'body': """APEX_JSON.GET_VALUE(
+	path => $1,
+    p0                 IN VARCHAR2 DEFAULT NULL,
+    p1                 IN VARCHAR2 DEFAULT NULL,
+    p2                 IN VARCHAR2 DEFAULT NULL,
+    p3                 IN VARCHAR2 DEFAULT NULL,
+    p4                 IN VARCHAR2 DEFAULT NULL,
+	values => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_VARCHAR2-Function.htm
+	'APEX_JSON.GET_VARCHAR2':
+		'prefix': 'APEX_JSON.GET_VARCHAR2'
+		'body': """APEX_JSON.GET_VARCHAR2(
+	path => $1,
+    p0                 IN VARCHAR2 DEFAULT NULL,
+    p1                 IN VARCHAR2 DEFAULT NULL,
+    p2                 IN VARCHAR2 DEFAULT NULL,
+    p3                 IN VARCHAR2 DEFAULT NULL,
+    p4                 IN VARCHAR2 DEFAULT NULL,
+	default => $2,
+	values => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_CLOB-Function.htm
+	'GET_CLOB':
+		'prefix': 'GET_CLOB'
+		'body': """GET_CLOB(
+path => $1,
+p0        in varchar2 default null,
+p1        in varchar2 default null,
+p2        in varchar2 default null,
+p3        in varchar2 default null,
+p4        in varchar2 default null,
+default => $2,
+values => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/INITIALIZE_CLOB_OUTPUT-Procedure.htm
+	'APEX_JSON.INITIALIZE_CLOB_OUTPUT':
+		'prefix': 'APEX_JSON.INITIALIZE_CLOB_OUTPUT'
+		'body': """APEX_JSON.INITIALIZE_CLOB_OUTPUT(
+	dur => $1,
+	cache => $2,
+	indent => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/INITIALIZE_OUTPUT-Procedure.htm
+	'APEX_JSON.INITIALIZE_OUTPUT':
+		'prefix': 'APEX_JSON.INITIALIZE_OUTPUT'
+		'body': """APEX_JSON.INITIALIZE_OUTPUT(
+	http_header => $1,
+	http_cache => $2,
+	http_cache_etag => $3,
+	indent => $4
+);$5"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/OPEN_ARRAY-Procedure.htm
+	'APEX_JSON.OPEN_ARRAY':
+		'prefix': 'APEX_JSON.OPEN_ARRAY'
+		'body': """APEX_JSON.OPEN_ARRAY(
+	name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/OPEN_OBJECT-Procedure.htm
+	'APEX_JSON.OPEN_OBJECT':
+		'prefix': 'APEX_JSON.OPEN_OBJECT'
+		'body': """APEX_JSON.OPEN_OBJECT(
+	name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PARSE-Procedure-Signature-1.htm
+	'APEX_JSON.PARSE':
+		'prefix': 'APEX_JSON.PARSE'
+		'body': """APEX_JSON.PARSE(
+	values => $1,
+	source => $2,
+	strict => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/STRINGIFY-Function-Signature-1.htm
+	'APEX_JSON.STRINGIFY':
+		'prefix': 'APEX_JSON.STRINGIFY'
+		'body': """APEX_JSON.STRINGIFY(
+	value => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/TO_XMLTYPE-Function.htm
+	'APEX_JSON.TO_XMLTYPE':
+		'prefix': 'APEX_JSON.TO_XMLTYPE'
+		'body': """APEX_JSON.TO_XMLTYPE(
+	source => $1,
+	strict => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/WRITE-Procedure-Signature-1.htm
+	'APEX_JSON.WRITE':
+		'prefix': 'APEX_JSON.WRITE'
+		'body': """APEX_JSON.WRITE(
+	value => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CREATE_LANGUAGE_MAPPING-Procedure.htm
+	'APEX_LANG.CREATE_LANGUAGE_MAPPING':
+		'prefix': 'APEX_LANG.CREATE_LANGUAGE_MAPPING'
+		'body': """APEX_LANG.CREATE_LANGUAGE_MAPPING(
+	application_id => $1,
+	language => $2,
+	translation_application_id => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DELETE_LANGUAGE_MAPPING-Procedure.htm
+	'APEX_LANG.DELETE_LANGUAGE_MAPPING':
+		'prefix': 'APEX_LANG.DELETE_LANGUAGE_MAPPING'
+		'body': """APEX_LANG.DELETE_LANGUAGE_MAPPING(
+	application_id => $1,
+	language => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/LANG_Function.htm
+	'APEX_LANG.LANG':
+		'prefix': 'APEX_LANG.LANG'
+		'body': """APEX_LANG.LANG(
+	primary_text_string => $1,
+    p0 IN VARCHAR2 DEFAULT NULL,
+    p1 IN VARCHAR2 DEFAULT NULL,
+    p2 IN VARCHAR2 DEFAULT NULL,
+    ...
+    p9 IN VARCHAR2 DEFAULT NULL,
+	primary_language => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/MESSAGE-Function.htm
+	'APEX_LANG.MESSAGE':
+		'prefix': 'APEX_LANG.MESSAGE'
+		'body': """APEX_LANG.MESSAGE(
+	name => $1,
+    p0                IN VARCHAR2 DEFAULT NULL,
+    p1                IN VARCHAR2 DEFAULT NULL,
+    p2                IN VARCHAR2 DEFAULT NULL,
+    ...
+    p9                IN VARCHAR2 DEFAULT NULL,
+	lang => $2,
+	application_id => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PUBLISH_APPLICATION-Procedure.htm
+	'APEX_LANG.PUBLISH_APPLICATION':
+		'prefix': 'APEX_LANG.PUBLISH_APPLICATION'
+		'body': """APEX_LANG.PUBLISH_APPLICATION(
+	application_id => $1,
+	language => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SEED_TRANSLATIONS-Procedure.htm
+	'APEX_LANG.SEED_TRANSLATIONS':
+		'prefix': 'APEX_LANG.SEED_TRANSLATIONS'
+		'body': """APEX_LANG.SEED_TRANSLATIONS(
+	application_id => $1,
+	language => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPDATE_LANGUAGE_MAPPING-Procedure.htm
+	'APEX_LANG.UPDATE_LANGUAGE_MAPPING':
+		'prefix': 'APEX_LANG.UPDATE_LANGUAGE_MAPPING'
+		'body': """APEX_LANG.UPDATE_LANGUAGE_MAPPING(
+	application_id => $1,
+	language => $2,
+	new_trans_application_id => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPDATE_MESSAGE-Procedure.htm
+	'APEX_LANG.UPDATE_MESSAGE':
+		'prefix': 'APEX_LANG.UPDATE_MESSAGE'
+		'body': """APEX_LANG.UPDATE_MESSAGE(
+	id => $1,
+	message_text => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPDATE_TRANSLATED_STRING-Procedure.htm
+	'APEX_LANG.UPDATE_TRANSLATED_STRING':
+		'prefix': 'APEX_LANG.UPDATE_TRANSLATED_STRING'
+		'body': """APEX_LANG.UPDATE_TRANSLATED_STRING(
+	id => $1,
+	language => $2,
+	string => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/AUTHENTICATE-Function.htm
+	'APEX_LDAP.AUTHENTICATE':
+		'prefix': 'APEX_LDAP.AUTHENTICATE'
+		'body': """APEX_LDAP.AUTHENTICATE(
+	username => $1,
+	password => $2,
+	search_base => $3,
+	host => $4,
+	port => $5,
+	use_ssl => $6
+);$7"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_ALL_USER_ATTRIBUTES-Procedure.htm
+	'APEX_LDAP.GET_ALL_USER_ATTRIBUTES':
+		'prefix': 'APEX_LDAP.GET_ALL_USER_ATTRIBUTES'
+		'body': """APEX_LDAP.GET_ALL_USER_ATTRIBUTES(
+	username => $1,
+	pass => $2,
+	auth_base => $3,
+	host => $4,
+	port => $5,
+	use_ssl => $6,
+	attributes => $7,
+	attribute_values => $8
+);$9"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_USER_ATTRIBUTES-Procedure.htm
+	'APEX_LDAP.GET_USER_ATTRIBUTES':
+		'prefix': 'APEX_LDAP.GET_USER_ATTRIBUTES'
+		'body': """APEX_LDAP.GET_USER_ATTRIBUTES(
+	username => $1,
+	pass => $2,
+	auth_base => $3,
+	host => $4,
+	port => $5,
+	use_ssl => $6,
+	attributes => $7,
+	attribute_values => $8
+);$9"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/IS_MEMBER-Function.htm
+	'APEX_LDAP.IS_MEMBER':
+		'prefix': 'APEX_LDAP.IS_MEMBER'
+		'body': """APEX_LDAP.IS_MEMBER(
+	username => $1,
+	pass => $2,
+	auth_base => $3,
+	host => $4,
+	port => $5,
+	use_ssl => $6,
+	group => $7,
+	group_base => $8
+);$9"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/MEMBER_OF-Function.htm
+	'APEX_LDAP.MEMBER_OF':
+		'prefix': 'APEX_LDAP.MEMBER_OF'
+		'body': """APEX_LDAP.MEMBER_OF(
+	username => $1,
+	pass => $2,
+	auth_base => $3,
+	host => $4,
+	port => $5,
+	use_ssl => $6
+);$7"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/MEMBER_OF2-Function.htm
+	'APEX_LDAP.MEMBER_OF2':
+		'prefix': 'APEX_LDAP.MEMBER_OF2'
+		'body': """APEX_LDAP.MEMBER_OF2(
+	username => $1,
+	pass => $2,
+	auth_base => $3,
+	host => $4,
+	port => $5,
+	use_ssl => $6
+);$7"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_ATTACHMENT-Procedure.htm
+	'APEX_MAIL.ADD_ATTACHMENT':
+		'prefix': 'APEX_MAIL.ADD_ATTACHMENT'
+		'body': """APEX_MAIL.ADD_ATTACHMENT(
+	mail_id => $1,
+	attachment => $2,
+	filename => $3,
+	mime_type => $4
+);$5"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_IMAGES_URL-Function.htm
+	'APEX_MAIL.GET_IMAGES_URL':
+		'prefix': 'APEX_MAIL.GET_IMAGES_URL'
+		'body': """APEX_MAIL.GET_IMAGES_URL"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_INSTANCE_URL-Function.htm
+	'APEX_MAIL.GET_INSTANCE_URL':
+		'prefix': 'APEX_MAIL.GET_INSTANCE_URL'
+		'body': """APEX_MAIL.GET_INSTANCE_URL"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SEND-Procedure.htm
+	'APEX_MAIL.SEND':
+		'prefix': 'APEX_MAIL.SEND'
+		'body': """APEX_MAIL.SEND(
+	to => $1,
+	from => $2,
+	body => $3,
+	body_html => $4,
+	subj => $5,
+	cc => $6,
+	bcc => $7,
+	replyto => $8
+);$9"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_AJAX_IDENTIFIER-Function.htm
+	'APEX_PLUGIN.GET_AJAX_IDENTIFIER':
+		'prefix': 'APEX_PLUGIN.GET_AJAX_IDENTIFIER'
+		'body': """APEX_PLUGIN.GET_AJAX_IDENTIFIER"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_INPUT_NAME_FOR_PAGE_ITEM-Function.htm
+	'APEX_PLUGIN.GET_INPUT_NAME_FOR_PAGE_ITEM':
+		'prefix': 'APEX_PLUGIN.GET_INPUT_NAME_FOR_PAGE_ITEM'
+		'body': """APEX_PLUGIN.GET_INPUT_NAME_FOR_PAGE_ITEM(
+	is_multi_value => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DEBUG_DYNAMIC-_ACTION-Procedure.htm
+	'APEX_PLUGIN_UTIL.DEBUG_DYNAMIC_ACTION':
+		'prefix': 'APEX_PLUGIN_UTIL.DEBUG_DYNAMIC_ACTION'
+		'body': """APEX_PLUGIN_UTIL.DEBUG_DYNAMIC_ACTION(
+	plugin => $1,
+	dynamic_action => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DEBUG_PAGE_ITEM-Procedure-Signature-1.htm
+	'APEX_PLUGIN_UTIL.DEBUG_PAGE_ITEM':
+		'prefix': 'APEX_PLUGIN_UTIL.DEBUG_PAGE_ITEM'
+		'body': """APEX_PLUGIN_UTIL.DEBUG_PAGE_ITEM(
+	plugin => $1,
+	page_item => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DEBUG_PROCESS-Procedure.htm
+	'APEX_PLUGIN_UTIL.DEBUG_PROCESS':
+		'prefix': 'APEX_PLUGIN_UTIL.DEBUG_PROCESS'
+		'body': """APEX_PLUGIN_UTIL.DEBUG_PROCESS(
+	plugin => $1,
+	process => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DEBUG_REGION-Procedure-Signature-1.htm
+	'APEX_PLUGIN_UTIL.DEBUG_REGION':
+		'prefix': 'APEX_PLUGIN_UTIL.DEBUG_REGION'
+		'body': """APEX_PLUGIN_UTIL.DEBUG_REGION(
+	plugin => $1,
+	region => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ESCAPE-Function-2.htm
+	'APEX_PLUGIN_UTIL.ESCAPE':
+		'prefix': 'APEX_PLUGIN_UTIL.ESCAPE'
+		'body': """APEX_PLUGIN_UTIL.ESCAPE(
+	value => $1,
+	escape => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/EXECUTE_PLSQL_CODE-Procedure.htm
+	'APEX_PLUGIN_UTIL.EXECUTE_PLSQL_CODE':
+		'prefix': 'APEX_PLUGIN_UTIL.EXECUTE_PLSQL_CODE'
+		'body': """APEX_PLUGIN_UTIL.EXECUTE_PLSQL_CODE(
+	plsql_code => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_ATTRIBUTE_AS_NUMBER-Function.htm
+	'APEX_PLUGIN_UTIL.GET_ATTRIBUTE_AS_NUMBER':
+		'prefix': 'APEX_PLUGIN_UTIL.GET_ATTRIBUTE_AS_NUMBER'
+		'body': """APEX_PLUGIN_UTIL.GET_ATTRIBUTE_AS_NUMBER(
+	value => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_DATA-Function-Signature-1.htm
+	'APEX_PLUGIN_UTIL.GET_DATA':
+		'prefix': 'APEX_PLUGIN_UTIL.GET_DATA'
+		'body': """APEX_PLUGIN_UTIL.GET_DATA(
+	sql_statement => $1,
+	min_columns => $2,
+	max_columns => $3,
+	component_name => $4,
+	search_type => $5,
+	search_column_no => $6,
+	search_string => $7,
+	first_row => $8,
+	max_rows => $9
+);$10"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_DATA2-Function-Signature-1.htm
+	'APEX_PLUGIN_UTIL.GET_DATA2':
+		'prefix': 'APEX_PLUGIN_UTIL.GET_DATA2'
+		'body': """APEX_PLUGIN_UTIL.GET_DATA2(
+	sql_statement => $1,
+	min_columns => $2,
+	max_columns => $3,
+	data_type_list => $4,
+	component_name => $5,
+	search_type => $6,
+	search_column_no => $7,
+	search_string => $8,
+	first_row => $9,
+	max_rows => $10
+);$11"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_DISPLAY_DATA-Function-Signature-1.htm
+	'APEX_PLUGIN_UTIL.GET_DISPLAY_DATA':
+		'prefix': 'APEX_PLUGIN_UTIL.GET_DISPLAY_DATA'
+		'body': """APEX_PLUGIN_UTIL.GET_DISPLAY_DATA(
+	sql_statement => $1,
+	min_columns => $2,
+	max_columns => $3,
+	component_name => $4,
+	display_column_no => $5,
+	search_column_no => $6,
+	search_string => $7,
+	display_extra => $8
+);$9"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_ELEMENT_ATTRIBUTES-Function.htm
+	'APEX_PLUGIN_UTIL.GET_ELEMENT_ATTRIBUTES':
+		'prefix': 'APEX_PLUGIN_UTIL.GET_ELEMENT_ATTRIBUTES'
+		'body': """APEX_PLUGIN_UTIL.GET_ELEMENT_ATTRIBUTES(
+	item => $1,
+	name => $2,
+	default_class => $3,
+	add_id => $4,
+	add_labelledby => $5
+);$6"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_PLSQL_EXPRESSION_RESULT-Function.htm
+	'APEX_PLUGIN_UTIL.GET_PLSQL_EXPRESSION_RESULT':
+		'prefix': 'APEX_PLUGIN_UTIL.GET_PLSQL_EXPRESSION_RESULT'
+		'body': """APEX_PLUGIN_UTIL.GET_PLSQL_EXPRESSION_RESULT(
+	plsql_expression => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_PLSQL_FUNCTION_RESULT-Function.htm
+	'APEX_PLUGIN_UTIL.GET_PLSQL_FUNCTION_RESULT':
+		'prefix': 'APEX_PLUGIN_UTIL.GET_PLSQL_FUNCTION_RESULT'
+		'body': """APEX_PLUGIN_UTIL.GET_PLSQL_FUNCTION_RESULT(
+	plsql_function => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_POSITION_IN_LIST-Function.htm
+	'APEX_PLUGIN_UTIL.GET_POSITION_IN_LIST':
+		'prefix': 'APEX_PLUGIN_UTIL.GET_POSITION_IN_LIST'
+		'body': """APEX_PLUGIN_UTIL.GET_POSITION_IN_LIST(
+	list => $1,
+	value => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_SEARCH_STRING-Function.htm
+	'APEX_PLUGIN_UTIL.GET_SEARCH_STRING':
+		'prefix': 'APEX_PLUGIN_UTIL.GET_SEARCH_STRING'
+		'body': """APEX_PLUGIN_UTIL.GET_SEARCH_STRING(
+	search_type => $1,
+	search_string => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/IS_EQUAL-Function.htm
+	'APEX_PLUGIN_UTIL.IS_EQUAL':
+		'prefix': 'APEX_PLUGIN_UTIL.IS_EQUAL'
+		'body': """APEX_PLUGIN_UTIL.IS_EQUAL(
+	value1 => $1,
+	value2 => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PAGE_ITEM_NAMES_TO_JQUERY-Function.htm
+	'APEX_PLUGIN_UTIL.PAGE_ITEM_NAMES_TO_JQUERY':
+		'prefix': 'APEX_PLUGIN_UTIL.PAGE_ITEM_NAMES_TO_JQUERY'
+		'body': """APEX_PLUGIN_UTIL.PAGE_ITEM_NAMES_TO_JQUERY(
+	page_item_names => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PRINT_DISPLAY_ONLY-Procedure.htm
+	'APEX_PLUGIN_UTIL.PRINT_DISPLAY_ONLY':
+		'prefix': 'APEX_PLUGIN_UTIL.PRINT_DISPLAY_ONLY'
+		'body': """APEX_PLUGIN_UTIL.PRINT_DISPLAY_ONLY(
+	item_name => $1,
+	display_value => $2,
+	show_line_breaks => $3,
+	attributes => $4,
+	id_postfix => $5
+);$6"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PRINT_ESCAPED_VALUE-Procedure.htm
+	'APEX_PLUGIN_UTIL.PRINT_ESCAPED_VALUE':
+		'prefix': 'APEX_PLUGIN_UTIL.PRINT_ESCAPED_VALUE'
+		'body': """APEX_PLUGIN_UTIL.PRINT_ESCAPED_VALUE(
+	value => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PRINT_HIDDEN_IF_READONLY-Procedure.htm
+	'APEX_PLUGIN_UTIL.PRINT_HIDDEN_IF_READ_ONLY':
+		'prefix': 'APEX_PLUGIN_UTIL.PRINT_HIDDEN_IF_READ_ONLY'
+		'body': """APEX_PLUGIN_UTIL.PRINT_HIDDEN_IF_READ_ONLY(
+	item_name => $1,
+	value => $2,
+	is_readonly => $3,
+	is_printer_friendly => $4,
+	id_postfix => $5
+);$6"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PRINT_JSON_HTTP_HEADER-Procedure.htm
+	'APEX_PLUGIN_UTIL.PRINT_JSON_HTTP_HEADER':
+		'prefix': 'APEX_PLUGIN_UTIL.PRINT_JSON_HTTP_HEADER'
+		'body': """APEX_PLUGIN_UTIL.PRINT_JSON_HTTP_HEADER"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PRINT_LOV_AS_JSON-Procedure.htm
+	'APEX_PLUGIN_UTIL.PRINT_LOV_AS_JSON':
+		'prefix': 'APEX_PLUGIN_UTIL.PRINT_LOV_AS_JSON'
+		'body': """APEX_PLUGIN_UTIL.PRINT_LOV_AS_JSON(
+	sql_statement => $1,
+	component_name => $2,
+	escape => $3,
+	replace_substitutions => $4
+);$5"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PRINT_OPTION-Procedure.htm
+	'APEX_PLUGIN_UTIL.PRINT_OPTION':
+		'prefix': 'APEX_PLUGIN_UTIL.PRINT_OPTION'
+		'body': """APEX_PLUGIN_UTIL.PRINT_OPTION(
+	display_value => $1,
+	return_value => $2,
+	is_selected => $3,
+	attributes => $4,
+	escape => $5
+);$6"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REPLACE_SUBSTITUTIONS-Function.htm
+	'APEX_PLUGIN_UTIL.REPLACE_SUBSTITUTIONS':
+		'prefix': 'APEX_PLUGIN_UTIL.REPLACE_SUBSTITUTIONS'
+		'body': """APEX_PLUGIN_UTIL.REPLACE_SUBSTITUTIONS(
+	value => $1,
+	escape => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CHANGE_GEOM_METADATA-Procedure.htm
+	'APEX_SPATIAL.CHANGE_GEOM_METADATA':
+		'prefix': 'APEX_SPATIAL.CHANGE_GEOM_METADATA'
+		'body': """APEX_SPATIAL.CHANGE_GEOM_METADATA(
+	table_name => $1,
+	column_name => $2,
+	new_table_name => $3,
+	new_column_name => $4,
+	diminfo => $5,
+	srid => $6
+);$7"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CIRCLE_POLYGON-Function.htm
+	'APEX_SPATIAL.CIRCLE_POLYGON':
+		'prefix': 'APEX_SPATIAL.CIRCLE_POLYGON'
+		'body': """APEX_SPATIAL.CIRCLE_POLYGON(
+	lon => $1,
+	lat => $2,
+	radius => $3,
+	arc_tolerance => $4,
+	srid => $5
+);$6"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DELETE_GEOM_METADATA-Procedure.htm
+	'APEX_SPATIAL.DELETE_GEOM_METADATA':
+		'prefix': 'APEX_SPATIAL.DELETE_GEOM_METADATA'
+		'body': """APEX_SPATIAL.DELETE_GEOM_METADATA(
+	table_name => $1,
+	column_name => $2,
+	drop_index => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/INSERT_GEOM_METADATA-Procedure.htm
+	'APEX_SPATIAL.INSERT_GEOM_METADATA':
+		'prefix': 'APEX_SPATIAL.INSERT_GEOM_METADATA'
+		'body': """APEX_SPATIAL.INSERT_GEOM_METADATA(
+	table_name => $1,
+	column_name => $2,
+	diminfo => $3,
+	srid => $4,
+	create_index_name => $5
+);$6"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/INSERT_GEOM_METADATA_LONLAT-Procedure.htm
+	'APEX_SPATIAL.INSERT_GEOM_METADATA_LONLAT':
+		'prefix': 'APEX_SPATIAL.INSERT_GEOM_METADATA_LONLAT'
+		'body': """APEX_SPATIAL.INSERT_GEOM_METADATA_LONLAT(
+	table_name => $1,
+	column_name => $2,
+	tolerance => $3,
+	create_index_name => $4
+);$5"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/POINT-Function.htm
+	'APEX_SPATIAL.POINT':
+		'prefix': 'APEX_SPATIAL.POINT'
+		'body': """APEX_SPATIAL.POINT(
+	lon => $1,
+	lat => $2,
+	srid => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/RECTANGLE-Function.htm
+	'APEX_SPATIAL.RECTANGLE':
+		'prefix': 'APEX_SPATIAL.RECTANGLE'
+		'body': """APEX_SPATIAL.RECTANGLE(
+	lon1 => $1,
+	lat1 => $2,
+	lon2 => $3,
+	lat2 => $4,
+	srid => $5
+);$6"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/FORMAT-Function.htm
+	'FORMAT':
+		'prefix': 'FORMAT'
+		'body': """FORMAT(
+	message => $1,
+     p0           in varchar2     default null,
+     p1           in varchar2     default null,
+     p2           in varchar2     default null,
+     p3           in varchar2     default null,
+     p4           in varchar2     default null,
+     p5           in varchar2     default null,
+     p6           in varchar2     default null,
+     p7           in varchar2     default null,
+     p8           in varchar2     default null,
+     p9           in varchar2     default null,
+     p10          in varchar2     default null,
+     p11          in varchar2     default null,
+     p12          in varchar2     default null,
+     p13          in varchar2     default null,
+     p14          in varchar2     default null,
+     p15          in varchar2     default null,
+     p16          in varchar2     default null,
+     p17          in varchar2     default null,
+     p18          in varchar2     default null,
+     p19          in varchar2     default null,
+	max_length => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_INITIALS-Function.htm
+	'GET_INITIALS':
+		'prefix': 'GET_INITIALS'
+		'body': """GET_INITIALS(
+	str => $1,
+	cnt => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GREP-Function-Signature-1.htm
+	'GREP':
+		'prefix': 'GREP'
+		'body': """GREP(
+	table => $1,
+	pattern => $2,
+	modifier => $3,
+	subexpression => $4,
+	limit => $5
+);$6"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/JOIN_CLOB-Function.htm
+	'JOIN_CLOB':
+		'prefix': 'JOIN_CLOB'
+		'body': """JOIN_CLOB(
+	table => $1,
+	sep => $2,
+	dur => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/JOIN-Function-Signature-1.htm
+	'JOIN':
+		'prefix': 'JOIN'
+		'body': """JOIN(
+	table => $1,
+	sep => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PLIST_DELETE-Procedure.htm
+	'PLIST_DELETE':
+		'prefix': 'PLIST_DELETE'
+		'body': """PLIST_DELETE(
+	table => $1,
+	key => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PLIST_GET-Function.htm
+	'PLIST_GET':
+		'prefix': 'PLIST_GET'
+		'body': """PLIST_GET(
+	table => $1,
+	key => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PLIST_PUT-Function.htm
+	'PLIST_PUT':
+		'prefix': 'PLIST_PUT'
+		'body': """PLIST_PUT(
+	table => $1,
+	key => $2,
+	value => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PUSH-Procedure-Signature-1.htm
+	'PUSH':
+		'prefix': 'PUSH'
+		'body': """PUSH(
+	table => $1,
+	value => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SHUFFLE-Function.htm
+	'SHUFFLE':
+		'prefix': 'SHUFFLE'
+		'body': """SHUFFLE(
+	table => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SPLIT-Function-Signature-1.htm
+	'SPLIT':
+		'prefix': 'SPLIT'
+		'body': """SPLIT(
+	str => $1,
+	sep => $2,
+	limit => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SPLIT_NUMBERS-Function.htm
+	'SPLIT_NUMBERS':
+		'prefix': 'SPLIT_NUMBERS'
+		'body': """SPLIT_NUMBERS(
+	str => $1,
+	sep => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_AD_COLUMN-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.ADD_AD_COLUMN':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.ADD_AD_COLUMN'
+		'body': """APEX_UI_DEFAULT_UPDATE.ADD_AD_COLUMN(
+	column_name => $1,
+	label => $2,
+	help_text => $3,
+	format_mask => $4,
+	default_value => $5,
+	form_format_mask => $6,
+	form_display_width => $7,
+	form_display_height => $8,
+	form_data_type => $9,
+	report_format_mask => $10,
+	report_col_alignment => $11,
+	syn_name1 => $12,
+	syn_name2 => $13,
+	syn_name3 => $14
+);$15"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_AD_SYNONYM-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.ADD_AD_SYNONYM':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.ADD_AD_SYNONYM'
+		'body': """APEX_UI_DEFAULT_UPDATE.ADD_AD_SYNONYM(
+	column_name => $1,
+	syn_name => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DEL_AD_COLUMN-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.DEL_AD_COLUMN':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.DEL_AD_COLUMN'
+		'body': """APEX_UI_DEFAULT_UPDATE.DEL_AD_COLUMN(
+	column_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DEL_AD_SYNONYM-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.DEL_AD_SYNONYM':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.DEL_AD_SYNONYM'
+		'body': """APEX_UI_DEFAULT_UPDATE.DEL_AD_SYNONYM(
+	syn_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DEL_COLUMN-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.DEL_COLUMN':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.DEL_COLUMN'
+		'body': """APEX_UI_DEFAULT_UPDATE.DEL_COLUMN(
+	table_name => $1,
+	column_name => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DEL_GROUP-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.DEL_GROUP':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.DEL_GROUP'
+		'body': """APEX_UI_DEFAULT_UPDATE.DEL_GROUP(
+	table_name => $1,
+	group_name => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DEL_TABLE-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.DEL_TABLE':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.DEL_TABLE'
+		'body': """APEX_UI_DEFAULT_UPDATE.DEL_TABLE(
+	table_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SYNCH_TABLE-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.SYNCH_TABLE':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.SYNCH_TABLE'
+		'body': """APEX_UI_DEFAULT_UPDATE.SYNCH_TABLE(
+	table_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPD_AD_COLUMN-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.UPD_AD_COLUMN':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.UPD_AD_COLUMN'
+		'body': """APEX_UI_DEFAULT_UPDATE.UPD_AD_COLUMN(
+	column_name => $1,
+	new_column_name => $2,
+	label => $3,
+	help_text => $4,
+	format_mask => $5,
+	default_value => $6,
+	form_format_mask => $7,
+	form_display_width => $8,
+	form_display_height => $9,
+	form_data_type => $10,
+	report_format_mask => $11,
+	report_col_alignment => $12
+);$13"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPD_AD_SYNONYM-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.UPD_AD_SYNONYM':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.UPD_AD_SYNONYM'
+		'body': """APEX_UI_DEFAULT_UPDATE.UPD_AD_SYNONYM(
+	syn_name => $1,
+	new_syn_name => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPD_COLUMN-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.UPD_COLUMN':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.UPD_COLUMN'
+		'body': """APEX_UI_DEFAULT_UPDATE.UPD_COLUMN(
+	table_name => $1,
+	column_name => $2,
+	group_id => $3,
+	label => $4,
+	help_text => $5,
+	display_in_form => $6,
+	display_seq_form => $7,
+	mask_form => $8,
+	default_value => $9,
+	required => $10,
+	display_width => $11,
+	max_width => $12,
+	height => $13,
+	display_in_report => $14,
+	display_seq_report => $15,
+	mask_report => $16,
+	alignment => $17
+);$18"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPD_DISPLAY_IN_FORM-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.UPD_DISPLAY_IN_FORM':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.UPD_DISPLAY_IN_FORM'
+		'body': """APEX_UI_DEFAULT_UPDATE.UPD_DISPLAY_IN_FORM(
+	table_name => $1,
+	column_name => $2,
+	display_in_form => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPD_DISPLAY_IN_REPORT-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.UPD_DISPLAY_IN_REPORT':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.UPD_DISPLAY_IN_REPORT'
+		'body': """APEX_UI_DEFAULT_UPDATE.UPD_DISPLAY_IN_REPORT(
+	table_name => $1,
+	column_name => $2,
+	display_in_report => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPD_FORM_REGION_TITLE-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.UPD_FORM_REGION_TITLE':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.UPD_FORM_REGION_TITLE'
+		'body': """APEX_UI_DEFAULT_UPDATE.UPD_FORM_REGION_TITLE(
+	table_name => $1,
+	form_region_title => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPD_GROUP-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.UPD_GROUP':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.UPD_GROUP'
+		'body': """APEX_UI_DEFAULT_UPDATE.UPD_GROUP(
+	table_name => $1,
+	group_name => $2,
+	new_group_name => $3,
+	description => $4,
+	display_sequence => $5
+);$6"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPD_ITEM_DISPLAY_HEIGHT-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.UPD_ITEM_DISPLAY_HEIGHT':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.UPD_ITEM_DISPLAY_HEIGHT'
+		'body': """APEX_UI_DEFAULT_UPDATE.UPD_ITEM_DISPLAY_HEIGHT(
+	table_name => $1,
+	column_name => $2,
+	display_height => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPD_ITEM_DISPLAY_WIDTH-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.UPD_ITEM_DISPLAY_WIDTH':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.UPD_ITEM_DISPLAY_WIDTH'
+		'body': """APEX_UI_DEFAULT_UPDATE.UPD_ITEM_DISPLAY_WIDTH(
+	table_name => $1,
+	column_name => $2,
+	display_width => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPD_ITEM_FORMAT_MASK-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.UPD_ITEM_FORMAT_MASK':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.UPD_ITEM_FORMAT_MASK'
+		'body': """APEX_UI_DEFAULT_UPDATE.UPD_ITEM_FORMAT_MASK(
+	table_name => $1,
+	column_name => $2,
+	format_mask => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPD_ITEM_HELP-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.UPD_ITEM_HELP':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.UPD_ITEM_HELP'
+		'body': """APEX_UI_DEFAULT_UPDATE.UPD_ITEM_HELP(
+	table_name => $1,
+	column_name => $2,
+	help_text => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPD_LABEL-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.UPD_LABEL':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.UPD_LABEL'
+		'body': """APEX_UI_DEFAULT_UPDATE.UPD_LABEL(
+	table_name => $1,
+	column_name => $2,
+	label => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPD_REPORT_ALIGNMENT-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.UPD_REPORT_ALIGNMENT':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.UPD_REPORT_ALIGNMENT'
+		'body': """APEX_UI_DEFAULT_UPDATE.UPD_REPORT_ALIGNMENT(
+	table_name => $1,
+	column_name => $2,
+	report_alignment => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPD_REPORT_FORMAT_MASK-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.UPD_REPORT_FORMAT_MASK':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.UPD_REPORT_FORMAT_MASK'
+		'body': """APEX_UI_DEFAULT_UPDATE.UPD_REPORT_FORMAT_MASK(
+	table_name => $1,
+	column_name => $2,
+	format_mask => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPD_REPORT_REGION_TITLE-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.UPD_REPORT_REGION_TITLE':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.UPD_REPORT_REGION_TITLE'
+		'body': """APEX_UI_DEFAULT_UPDATE.UPD_REPORT_REGION_TITLE(
+	table_name => $1,
+	report_region_title => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UPD_TABLE-Procedure.htm
+	'APEX_UI_DEFAULT_UPDATE.UPD_TABLE':
+		'prefix': 'APEX_UI_DEFAULT_UPDATE.UPD_TABLE'
+		'body': """APEX_UI_DEFAULT_UPDATE.UPD_TABLE(
+	table_name => $1,
+	form_region_title => $2,
+	report_region_title => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CACHE_GET_DATE_OF_PAGE_CACHE-Function.htm
+	'APEX_UTIL.CACHE_GET_DATE_OF_PAGE_CACHE':
+		'prefix': 'APEX_UTIL.CACHE_GET_DATE_OF_PAGE_CACHE'
+		'body': """APEX_UTIL.CACHE_GET_DATE_OF_PAGE_CACHE(
+	application => $1,
+	page => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CACHE_GET_DATE_OF_REGION_CACHE-Function.htm
+	'APEX_UTIL.CACHE_GET_DATE_OF_REGION_CACHE':
+		'prefix': 'APEX_UTIL.CACHE_GET_DATE_OF_REGION_CACHE'
+		'body': """APEX_UTIL.CACHE_GET_DATE_OF_REGION_CACHE(
+	application => $1,
+	page => $2,
+	region_name => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CACHE_PURGE_BY_APPLICATION-Procedure.htm
+	'APEX_UTIL.CACHE_PURGE_BY_APPLICATION':
+		'prefix': 'APEX_UTIL.CACHE_PURGE_BY_APPLICATION'
+		'body': """APEX_UTIL.CACHE_PURGE_BY_APPLICATION(
+	application => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CACHE_PURGE_BY_PAGE-Procedure.htm
+	'APEX_UTIL.CACHE_PURGE_BY_PAGE':
+		'prefix': 'APEX_UTIL.CACHE_PURGE_BY_PAGE'
+		'body': """APEX_UTIL.CACHE_PURGE_BY_PAGE(
+	application => $1,
+	page => $2,
+	user_name => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CACHE_PURGE_STALE-Procedure.htm
+	'APEX_UTIL.CACHE_PURGE_STALE':
+		'prefix': 'APEX_UTIL.CACHE_PURGE_STALE'
+		'body': """APEX_UTIL.CACHE_PURGE_STALE(
+	application => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CHANGE_CURRENT_USER_PW-Procedure.htm
+	'APEX_UTIL.CHANGE_CURRENT_USER_PW':
+		'prefix': 'APEX_UTIL.CHANGE_CURRENT_USER_PW'
+		'body': """APEX_UTIL.CHANGE_CURRENT_USER_PW(
+	new_password => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CHANGE_PASSWORD_ON_FIRST_USE-Function.htm
+	'APEX_UTIL.CHANGE_PASSWORD_ON_FIRST_USE':
+		'prefix': 'APEX_UTIL.CHANGE_PASSWORD_ON_FIRST_USE'
+		'body': """APEX_UTIL.CHANGE_PASSWORD_ON_FIRST_USE(
+	user_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CLOSE_OPEN_DB_LINKS-Procedure.htm
+	'APEX_UTIL.CLOSE_OPEN_DB_LINKS':
+		'prefix': 'APEX_UTIL.CLOSE_OPEN_DB_LINKS'
+		'body': """APEX_UTIL.CLOSE_OPEN_DB_LINKS"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CLEAR_APP_CACHE-Procedure.htm
+	'APEX_UTIL.CLEAR_APP_CACHE':
+		'prefix': 'APEX_UTIL.CLEAR_APP_CACHE'
+		'body': """APEX_UTIL.CLEAR_APP_CACHE(
+	app_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CLEAR_PAGE_CACHE-Procedure.htm
+	'APEX_UTIL.CLEAR_PAGE_CACHE':
+		'prefix': 'APEX_UTIL.CLEAR_PAGE_CACHE'
+		'body': """APEX_UTIL.CLEAR_PAGE_CACHE(
+	page_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CLEAR_USER_CACHE-Procedure.htm
+	'APEX_UTIL.CLEAR_USER_CACHE':
+		'prefix': 'APEX_UTIL.CLEAR_USER_CACHE'
+		'body': """APEX_UTIL.CLEAR_USER_CACHE"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/COUNT_CLICK-Procedure.htm
+	'APEX_UTIL.COUNT_CLICK':
+		'prefix': 'APEX_UTIL.COUNT_CLICK'
+		'body': """APEX_UTIL.COUNT_CLICK(
+	url => $1,
+	cat => $2,
+	id => $3,
+	user => $4,
+	workspace => $5
+);$6"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CREATE_USER-Procedure.htm
+	'APEX_UTIL.CREATE_USER':
+		'prefix': 'APEX_UTIL.CREATE_USER'
+		'body': """APEX_UTIL.CREATE_USER(
+	user_id => $1,
+	user_name => $2,
+	first_name => $3,
+	last_name => $4,
+	description => $5,
+	email_address => $6,
+	web_password => $7,
+	web_password_format => $8,
+	group_ids => $9,
+	developer_privs => $10,
+	default_schema => $11,
+	allow_access_to_schemas => $12,
+	account_expiry => $13
+);$14"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CREATE_USER_GROUP-Procedure.htm
+	'APEX_UTIL.CREATE_USER_GROUP':
+		'prefix': 'APEX_UTIL.CREATE_USER_GROUP'
+		'body': """APEX_UTIL.CREATE_USER_GROUP(
+	id => $1,
+	group_name => $2,
+	security_group_id => $3,
+	group_desc => $4
+);$5"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CURRENT_USER_IN_GROUP-Function.htm
+	'APEX_UTIL.CURRENT_USER_IN_GROUP':
+		'prefix': 'APEX_UTIL.CURRENT_USER_IN_GROUP'
+		'body': """APEX_UTIL.CURRENT_USER_IN_GROUP(
+	group_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CUSTOM_CALENDAR-Procedure.htm
+	'APEX_UTIL.CUSTOM_CALENDAR':
+		'prefix': 'APEX_UTIL.CUSTOM_CALENDAR'
+		'body': """APEX_UTIL.CUSTOM_CALENDAR(
+	date_type_field => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DELETE_USER_GROUP-Procedure-Signature-1.htm
+	'APEX_UTIL.DELETE_USER_GROUP':
+		'prefix': 'APEX_UTIL.DELETE_USER_GROUP'
+		'body': """APEX_UTIL.DELETE_USER_GROUP(
+	group_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/DOWNLOAD_PRINT_DOCUMENT-Procedure-Signature-1.htm
+	'APEX_UTIL.DOWNLOAD_PRINT_DOCUMENT':
+		'prefix': 'APEX_UTIL.DOWNLOAD_PRINT_DOCUMENT'
+		'body': """APEX_UTIL.DOWNLOAD_PRINT_DOCUMENT(
+	file_name => $1,
+	content_disposition => $2,
+	report_data => $3,
+	report_layout => $4,
+	report_layout_type => $5,
+	document_format => $6,
+	print_server => $7
+);$8"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/EDIT_USER-Procedure.htm
+	'APEX_UTIL.EDIT_USER':
+		'prefix': 'APEX_UTIL.EDIT_USER'
+		'body': """APEX_UTIL.EDIT_USER(
+	user_id => $1,
+	user_name => $2,
+	first_name => $3,
+	last_name => $4,
+	web_password => $5,
+	new_password => $6,
+	email_address => $7,
+	start_date => $8,
+	end_date => $9,
+	employee_id => $10,
+	allow_access_to_schemas => $11,
+	person_type => $12,
+	default_schema => $13,
+	group_ids => $14,
+	developer_roles => $15,
+	description => $16,
+	account_expiry => $17,
+	account_locked => $18,
+	failed_access_attempts => $19,
+	change_password_on_first_use => $20,
+	first_password_use_occurred => $21
+);$22"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/END_USER_ACCOUNT_DAYS_LEFT-Function.htm
+	'APEX_UTIL.END_USER_ACCOUNT_DAYS_LEFT':
+		'prefix': 'APEX_UTIL.END_USER_ACCOUNT_DAYS_LEFT'
+		'body': """APEX_UTIL.END_USER_ACCOUNT_DAYS_LEFT(
+	user_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/EXPIRE_END_USER_ACCOUNT-Procedure.htm
+	'APEX_UTIL.EXPIRE_END_USER_ACCOUNT':
+		'prefix': 'APEX_UTIL.EXPIRE_END_USER_ACCOUNT'
+		'body': """APEX_UTIL.EXPIRE_END_USER_ACCOUNT(
+	user_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/EXPIRE_WORKSPACE_ACCOUNT-Procedure.htm
+	'APEX_UTIL.EXPIRE_WORKSPACE_ACCOUNT':
+		'prefix': 'APEX_UTIL.EXPIRE_WORKSPACE_ACCOUNT'
+		'body': """APEX_UTIL.EXPIRE_WORKSPACE_ACCOUNT(
+	user_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/EXPORT_USERS-Procedure.htm
+	'APEX_UTIL.EXPORT_USERS':
+		'prefix': 'APEX_UTIL.EXPORT_USERS'
+		'body': """APEX_UTIL.EXPORT_USERS(
+	export_format => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/FETCH_APP_ITEM-Function.htm
+	'APEX_UTIL.FETCH_APP_ITEM':
+		'prefix': 'APEX_UTIL.FETCH_APP_ITEM'
+		'body': """APEX_UTIL.FETCH_APP_ITEM(
+	item => $1,
+	app => $2,
+	session => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/FETCH_USER-Procedure-Signature-1.htm
+	'APEX_UTIL.FETCH_USER':
+		'prefix': 'APEX_UTIL.FETCH_USER'
+		'body': """APEX_UTIL.FETCH_USER(
+	user_id => $1,
+	workspace => $2,
+	user_name => $3,
+	first_name => $4,
+	last_name => $5,
+	web_password => $6,
+	email_address => $7,
+	start_date => $8,
+	end_date => $9,
+	employee_id => $10,
+	allow_access_to_schemas => $11,
+	person_type => $12,
+	default_schema => $13,
+	groups => $14,
+	developer_role => $15,
+	description => $16
+);$17"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/FIND_SECURITY_GROUP_ID-Function.htm
+	'APEX_UTIL.FIND_SECURITY_GROUP_ID':
+		'prefix': 'APEX_UTIL.FIND_SECURITY_GROUP_ID'
+		'body': """APEX_UTIL.FIND_SECURITY_GROUP_ID(
+	workspace => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/FIND_WORKSPACE-Function.htm
+	'APEX_UTIL.FIND_WORKSPACE':
+		'prefix': 'APEX_UTIL.FIND_WORKSPACE'
+		'body': """APEX_UTIL.FIND_WORKSPACE(
+	security_group_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_ACCOUNT_LOCKED_STATUS-Function.htm
+	'APEX_UTIL.GET_ACCOUNT_LOCKED_STATUS':
+		'prefix': 'APEX_UTIL.GET_ACCOUNT_LOCKED_STATUS'
+		'body': """APEX_UTIL.GET_ACCOUNT_LOCKED_STATUS(
+	user_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_APPLICATION_STATUS-Function.htm
+	'APEX_UTIL.GET_APPLICATION_STATUS':
+		'prefix': 'APEX_UTIL.GET_APPLICATION_STATUS'
+		'body': """APEX_UTIL.GET_APPLICATION_STATUS(
+	application_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_ATTRIBUTE-Function.htm
+	'APEX_UTIL.GET_ATTRIBUTE':
+		'prefix': 'APEX_UTIL.GET_ATTRIBUTE'
+		'body': """APEX_UTIL.GET_ATTRIBUTE(
+	username => $1,
+	attribute_number => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_AUTHENTICATION_RESULT-Function.htm
+	'APEX_UTIL.GET_AUTHENTICATION_RESULT':
+		'prefix': 'APEX_UTIL.GET_AUTHENTICATION_RESULT'
+		'body': """APEX_UTIL.GET_AUTHENTICATION_RESULT"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_BLOB_FILE_SRC-Function.htm
+	'APEX_UTIL.GET_BLOB_FILE_SRC':
+		'prefix': 'APEX_UTIL.GET_BLOB_FILE_SRC'
+		'body': """APEX_UTIL.GET_BLOB_FILE_SRC(
+	item_name => $1,
+	v1 => $2,
+	v2 => $3,
+	content_disposition => $4
+);$5"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_BUILD_OPTION_STATUS-Function-Signature-1.htm
+	'APEX_UTIL.GET_BUILD_OPTION_STATUS':
+		'prefix': 'APEX_UTIL.GET_BUILD_OPTION_STATUS'
+		'body': """APEX_UTIL.GET_BUILD_OPTION_STATUS(
+	application_id => $1,
+	id => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_CURRENT_USER_ID-Function.htm
+	'APEX_UTIL.GET_CURRENT_USER_ID':
+		'prefix': 'APEX_UTIL.GET_CURRENT_USER_ID'
+		'body': """APEX_UTIL.GET_CURRENT_USER_ID"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_DEFAULT_SCHEMA-Function.htm
+	'APEX_UTIL.GET_DEFAULT_SCHEMA':
+		'prefix': 'APEX_UTIL.GET_DEFAULT_SCHEMA'
+		'body': """APEX_UTIL.GET_DEFAULT_SCHEMA"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_EDITION-Function.htm
+	'APEX_UTIL.GET_EDITION':
+		'prefix': 'APEX_UTIL.GET_EDITION'
+		'body': """APEX_UTIL.GET_EDITION"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_EMAIL-Function.htm
+	'APEX_UTIL.GET_EMAIL':
+		'prefix': 'APEX_UTIL.GET_EMAIL'
+		'body': """APEX_UTIL.GET_EMAIL(
+	username => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_FEEDBACK_FOLLOW_UP-Function.htm
+	'APEX_UTIL.GET_FEEDBACK_FOLLOW_UP':
+		'prefix': 'APEX_UTIL.GET_FEEDBACK_FOLLOW_UP'
+		'body': """APEX_UTIL.GET_FEEDBACK_FOLLOW_UP(
+	feedback_id => $1,
+	row => $2,
+	template => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_FILE-Procedure.htm
+	'APEX_UTIL.GET_FILE':
+		'prefix': 'APEX_UTIL.GET_FILE'
+		'body': """APEX_UTIL.GET_FILE(
+	file_id => $1,
+	inline => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_FILE_ID-Function.htm
+	'APEX_UTIL.GET_FILE_ID':
+		'prefix': 'APEX_UTIL.GET_FILE_ID'
+		'body': """APEX_UTIL.GET_FILE_ID(
+	name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_FIRST_NAME-Function.htm
+	'APEX_UTIL.GET_FIRST_NAME':
+		'prefix': 'APEX_UTIL.GET_FIRST_NAME'
+		'body': """APEX_UTIL.GET_FIRST_NAME"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_GLOBAL_NOTIFICATION-Function.htm
+	'APEX_UTIL.GET_GLOBAL_NOTIFICATION':
+		'prefix': 'APEX_UTIL.GET_GLOBAL_NOTIFICATION'
+		'body': """APEX_UTIL.GET_GLOBAL_NOTIFICATION(
+	application_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_GROUPS_USER_BELONGS_TO-Function.htm
+	'APEX_UTIL.GET_GROUPS_USER_BELONGS_TO':
+		'prefix': 'APEX_UTIL.GET_GROUPS_USER_BELONGS_TO'
+		'body': """APEX_UTIL.GET_GROUPS_USER_BELONGS_TO(
+	username => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_GROUP_ID-Function.htm
+	'APEX_UTIL.GET_GROUP_ID':
+		'prefix': 'APEX_UTIL.GET_GROUP_ID'
+		'body': """APEX_UTIL.GET_GROUP_ID(
+	group_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_GROUP_NAME-Function.htm
+	'APEX_UTIL.GET_GROUP_NAME':
+		'prefix': 'APEX_UTIL.GET_GROUP_NAME'
+		'body': """APEX_UTIL.GET_GROUP_NAME(
+	group_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_HASH-Function.htm
+	'APEX_UTIL.GET_HASH':
+		'prefix': 'APEX_UTIL.GET_HASH'
+		'body': """APEX_UTIL.GET_HASH(
+	values => $1,
+	salted => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_HIGH_CONTRAST_MODE_TOGGLE-Function.htm
+	'APEX_UTIL.GET_HIGH_CONTRAST_MODE_TOGGLE':
+		'prefix': 'APEX_UTIL.GET_HIGH_CONTRAST_MODE_TOGGLE'
+		'body': """APEX_UTIL.GET_HIGH_CONTRAST_MODE_TOGGLE(
+	on_message => $1,
+	off_message => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_LAST_NAME-Function.htm
+	'APEX_UTIL.GET_LAST_NAME':
+		'prefix': 'APEX_UTIL.GET_LAST_NAME'
+		'body': """APEX_UTIL.GET_LAST_NAME(
+	username => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_NUMERIC_SESSION_STATE-Function.htm
+	'APEX_UTIL.GET_NUMERIC_SESSION_STATE':
+		'prefix': 'APEX_UTIL.GET_NUMERIC_SESSION_STATE'
+		'body': """APEX_UTIL.GET_NUMERIC_SESSION_STATE(
+	item => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_PREFERENCE-Function.htm
+	'APEX_UTIL.GET_PREFERENCE':
+		'prefix': 'APEX_UTIL.GET_PREFERENCE'
+		'body': """APEX_UTIL.GET_PREFERENCE(
+	preference => $1,
+	user => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_PRINT_DOCUMENT-Function-Signature-1.htm
+	'APEX_UTIL.GET_PRINT_DOCUMENT':
+		'prefix': 'APEX_UTIL.GET_PRINT_DOCUMENT'
+		'body': """APEX_UTIL.GET_PRINT_DOCUMENT(
+	report_data => $1,
+	report_layout => $2,
+	report_layout_type => $3,
+	document_format => $4,
+	print_server => $5
+);$6"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_SCREEN_READER_MODE_TOGGLE-Function.htm
+	'APEX_UTIL.GET_SCREEN_READER_MODE_TOGGLE':
+		'prefix': 'APEX_UTIL.GET_SCREEN_READER_MODE_TOGGLE'
+		'body': """APEX_UTIL.GET_SCREEN_READER_MODE_TOGGLE(
+	on_message => $1,
+	off_message => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_SESSION_LANG-Function.htm
+	'APEX_UTIL.GET_SESSION_LANG':
+		'prefix': 'APEX_UTIL.GET_SESSION_LANG'
+		'body': """APEX_UTIL.GET_SESSION_LANG"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_SESSION_STATE-Function.htm
+	'APEX_UTIL.GET_SESSION_STATE':
+		'prefix': 'APEX_UTIL.GET_SESSION_STATE'
+		'body': """APEX_UTIL.GET_SESSION_STATE(
+	item => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_SESSION_TERRITORY-Function.htm
+	'APEX_UTIL.GET_SESSION_TERRITORY':
+		'prefix': 'APEX_UTIL.GET_SESSION_TERRITORY'
+		'body': """APEX_UTIL.GET_SESSION_TERRITORY"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_SESSION_TIME_ZONE-Function.htm
+	'APEX_UTIL.GET_SESSION_TIME_ZONE':
+		'prefix': 'APEX_UTIL.GET_SESSION_TIME_ZONE'
+		'body': """APEX_UTIL.GET_SESSION_TIME_ZONE"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_SINCE-Function.htm
+	'APEX_UTIL.GET_SINCE':
+		'prefix': 'APEX_UTIL.GET_SINCE'
+		'body': """APEX_UTIL.GET_SINCE(
+	date => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_SUPPORTING_OBJECT_SCRIPT-Function.htm
+	'APEX_UTIL.GET_SUPPORTING_OBJECT_SCRIPT':
+		'prefix': 'APEX_UTIL.GET_SUPPORTING_OBJECT_SCRIPT'
+		'body': """APEX_UTIL.GET_SUPPORTING_OBJECT_SCRIPT(
+	application_id => $1,
+	script_type => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_USER_ID-Function.htm
+	'APEX_UTIL.GET_USER_ID':
+		'prefix': 'APEX_UTIL.GET_USER_ID'
+		'body': """APEX_UTIL.GET_USER_ID(
+	username => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_USER_ROLES-Function.htm
+	'APEX_UTIL.GET_USER_ROLES':
+		'prefix': 'APEX_UTIL.GET_USER_ROLES'
+		'body': """APEX_UTIL.GET_USER_ROLES(
+	username => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_USERNAME-Function-2.htm
+	'APEX_UTIL.GET_USERNAME':
+		'prefix': 'APEX_UTIL.GET_USERNAME'
+		'body': """APEX_UTIL.GET_USERNAME(
+	userid => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/HOST_URL-Function.htm
+	'APEX_UTIL.HOST_URL':
+		'prefix': 'APEX_UTIL.HOST_URL'
+		'body': """APEX_UTIL.HOST_URL(
+	option => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/HTML_PCT_GRAPH_MASK-Function.htm
+	'APEX_UTIL.HTML_PCT_GRAPH_MASK':
+		'prefix': 'APEX_UTIL.HTML_PCT_GRAPH_MASK'
+		'body': """APEX_UTIL.HTML_PCT_GRAPH_MASK(
+	number => $1,
+	size => $2,
+	background => $3,
+	bar_background => $4,
+	format => $5
+);$6"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/INCREMENT_CALENDAR-Procedure.htm
+	'APEX_UTIL.INCREMENT_CALENDAR':
+		'prefix': 'APEX_UTIL.INCREMENT_CALENDAR'
+		'body': """APEX_UTIL.INCREMENT_CALENDAR"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/IR_CLEAR-Procedure-DEPRECATED.htm
+	'APEX_UTIL.IR_CLEAR':
+		'prefix': 'APEX_UTIL.IR_CLEAR'
+		'body': """APEX_UTIL.IR_CLEAR(
+	page_id => $1,
+	report_alias => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/IR_DELETE_REPORT-Procedure-DEPRECATED.htm
+	'APEX_UTIL.IR_DELETE_REPORT':
+		'prefix': 'APEX_UTIL.IR_DELETE_REPORT'
+		'body': """APEX_UTIL.IR_DELETE_REPORT(
+	report_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/IR_DELETE_SUBSCRIPTION-Procedure-DEPRECATED.htm
+	'APEX_UTIL.IR_DELETE_SUBSCRIPTION':
+		'prefix': 'APEX_UTIL.IR_DELETE_SUBSCRIPTION'
+		'body': """APEX_UTIL.IR_DELETE_SUBSCRIPTION(
+	subscription_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/IR_FILTER-Procedure-DEPRECATED.htm
+	'APEX_UTIL.IR_FILTER':
+		'prefix': 'APEX_UTIL.IR_FILTER'
+		'body': """APEX_UTIL.IR_FILTER(
+	page_id => $1,
+	report_column => $2,
+	operator_abbr => $3,
+	filter_value => $4,
+	report_alias => $5
+);$6"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/IR_RESET-Procedure-DEPRECATED.htm
+	'APEX_UTIL.IR_RESET':
+		'prefix': 'APEX_UTIL.IR_RESET'
+		'body': """APEX_UTIL.IR_RESET(
+	page_id => $1,
+	report_alias => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/IS_HIGH_CONTRAST_SESSION-Function.htm
+	'APEX_UTIL.IS_HIGH_CONTRAST_SESSION':
+		'prefix': 'APEX_UTIL.IS_HIGH_CONTRAST_SESSION'
+		'body': """APEX_UTIL.IS_HIGH_CONTRAST_SESSION"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/IS_HIGH_CONTRAST_SESSION_YN-Function.htm
+	'APEX_UTIL.IS_HIGH_CONTRAST_SESSION_YN':
+		'prefix': 'APEX_UTIL.IS_HIGH_CONTRAST_SESSION_YN'
+		'body': """APEX_UTIL.IS_HIGH_CONTRAST_SESSION_YN"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/IS_LOGIN_PASSWORD_VALID-Function.htm
+	'APEX_UTIL.IS_LOGIN_PASSWORD_VALID':
+		'prefix': 'APEX_UTIL.IS_LOGIN_PASSWORD_VALID'
+		'body': """APEX_UTIL.IS_LOGIN_PASSWORD_VALID(
+	username => $1,
+	password => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/IS_SCREEN_READER_SESSION-Function.htm
+	'APEX_UTIL.IS_SCREEN_READER_SESSION':
+		'prefix': 'APEX_UTIL.IS_SCREEN_READER_SESSION'
+		'body': """APEX_UTIL.IS_SCREEN_READER_SESSION"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/IS_SCREEN_READER_SESSION_YN-Function.htm
+	'APEX_UTIL.IS_SCREEN_READER_SESSION_YN':
+		'prefix': 'APEX_UTIL.IS_SCREEN_READER_SESSION_YN'
+		'body': """APEX_UTIL.IS_SCREEN_READER_SESSION_YN"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/IS_USERNAME_UNIQUE-Function.htm
+	'APEX_UTIL.IS_USERNAME_UNIQUE':
+		'prefix': 'APEX_UTIL.IS_USERNAME_UNIQUE'
+		'body': """APEX_UTIL.IS_USERNAME_UNIQUE(
+	username => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/KEYVAL_NUM-Function.htm
+	'APEX_UTIL.KEYVAL_NUM':
+		'prefix': 'APEX_UTIL.KEYVAL_NUM'
+		'body': """APEX_UTIL.KEYVAL_NUM"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/KEYVAL_VC2-Function.htm
+	'APEX_UTIL.KEYVAL_VC2':
+		'prefix': 'APEX_UTIL.KEYVAL_VC2'
+		'body': """APEX_UTIL.KEYVAL_VC2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/LOCK_ACCOUNT-Procedure.htm
+	'APEX_UTIL.LOCK_ACCOUNT':
+		'prefix': 'APEX_UTIL.LOCK_ACCOUNT'
+		'body': """APEX_UTIL.LOCK_ACCOUNT(
+	user_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PASSWORD_FIRST_USE_OCCURRED-Function.htm
+	'APEX_UTIL.PASSWORD_FIRST_USE_OCCURRED':
+		'prefix': 'APEX_UTIL.PASSWORD_FIRST_USE_OCCURRED'
+		'body': """APEX_UTIL.PASSWORD_FIRST_USE_OCCURRED(
+	user_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PREPARE_URL-Function.htm
+	'APEX_UTIL.PREPARE_URL':
+		'prefix': 'APEX_UTIL.PREPARE_URL'
+		'body': """APEX_UTIL.PREPARE_URL(
+	url => $1,
+	url_charset => $2,
+	checksum_type => $3,
+	triggering_element => $4
+);$5"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PUBLIC_CHECK_AUTHORIZATION-Function-DEPRECATED.htm
+	'APEX_UTIL.PUBLIC_CHECK_AUTHORIZATION':
+		'prefix': 'APEX_UTIL.PUBLIC_CHECK_AUTHORIZATION'
+		'body': """APEX_UTIL.PUBLIC_CHECK_AUTHORIZATION(
+	security_scheme => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PURGE_REGIONS_BY_APP-Procedure.htm
+	'APEX_UTIL.PURGE_REGIONS_BY_APP':
+		'prefix': 'APEX_UTIL.PURGE_REGIONS_BY_APP'
+		'body': """APEX_UTIL.PURGE_REGIONS_BY_APP(
+	application => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PURGE_REGIONS_BY_NAME-Procedure.htm
+	'APEX_UTIL.PURGE_REGIONS_BY_NAME':
+		'prefix': 'APEX_UTIL.PURGE_REGIONS_BY_NAME'
+		'body': """APEX_UTIL.PURGE_REGIONS_BY_NAME(
+	application => $1,
+	page => $2,
+	region_name => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PURGE_REGIONS_BY_PAGE-Procedure.htm
+	'APEX_UTIL.PURGE_REGIONS_BY_PAGE':
+		'prefix': 'APEX_UTIL.PURGE_REGIONS_BY_PAGE'
+		'body': """APEX_UTIL.PURGE_REGIONS_BY_PAGE(
+	application => $1,
+	page => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REDIRECT_URL-Procedure.htm
+	'APEX_UTIL.REDIRECT_URL':
+		'prefix': 'APEX_UTIL.REDIRECT_URL'
+		'body': """APEX_UTIL.REDIRECT_URL(
+	url => $1,
+	reset_htp_buffer => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REMOVE_PREFERENCE-Procedure.htm
+	'APEX_UTIL.REMOVE_PREFERENCE':
+		'prefix': 'APEX_UTIL.REMOVE_PREFERENCE'
+		'body': """APEX_UTIL.REMOVE_PREFERENCE(
+	preference => $1,
+	user => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REMOVE_SORT_PREFERENCES-Procedure.htm
+	'APEX_UTIL.REMOVE_SORT_PREFERENCES':
+		'prefix': 'APEX_UTIL.REMOVE_SORT_PREFERENCES'
+		'body': """APEX_UTIL.REMOVE_SORT_PREFERENCES(
+	user => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/REMOVE_USER-Procedure.htm
+	'APEX_UTIL.REMOVE_USER':
+		'prefix': 'APEX_UTIL.REMOVE_USER'
+		'body': """APEX_UTIL.REMOVE_USER(
+	user_id => $1,
+	user_name => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/RESET_AUTHORIZATIONS-Procedure-DEPRECATED.htm
+	'APEX_UTIL.RESET_AUTHORIZATIONS':
+		'prefix': 'APEX_UTIL.RESET_AUTHORIZATIONS'
+		'body': """APEX_UTIL.RESET_AUTHORIZATIONS"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/RESET_PASSWORD-Procedure.htm
+	'APEX_UTIL.RESET_PASSWORD':
+		'prefix': 'APEX_UTIL.RESET_PASSWORD'
+		'body': """APEX_UTIL.RESET_PASSWORD(
+	user_name => $1,
+	old_password => $2,
+	new_password => $3,
+	change_password_on_first_use => $4
+);$5"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/RESET_PW-Procedure.htm
+	'APEX_UTIL.RESET_PW':
+		'prefix': 'APEX_UTIL.RESET_PW'
+		'body': """APEX_UTIL.RESET_PW(
+	user => $1,
+	msg => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SAVEKEY_NUM-Function.htm
+	'APEX_UTIL.SAVEKEY_NUM':
+		'prefix': 'APEX_UTIL.SAVEKEY_NUM'
+		'body': """APEX_UTIL.SAVEKEY_NUM(
+	val => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SAVEKEY_VC2-Function.htm
+	'APEX_UTIL.SAVEKEY_VC2':
+		'prefix': 'APEX_UTIL.SAVEKEY_VC2'
+		'body': """APEX_UTIL.SAVEKEY_VC2(
+	val => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_APP_BUILD_STATUS_Procedure.htm
+	'APEX_UTIL.SET_APP_BUILD_STAUTS':
+		'prefix': 'APEX_UTIL.SET_APP_BUILD_STAUTS'
+		'body': """APEX_UTIL.SET_APP_BUILD_STAUTS(	application_id => $1,
+	build_status => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_APPLICATION_STATUS-Procedure.htm
+	'APEX_UTIL.SET_APPLICATION_STATUS':
+		'prefix': 'APEX_UTIL.SET_APPLICATION_STATUS'
+		'body': """APEX_UTIL.SET_APPLICATION_STATUS(
+	application_id => $1,
+	application_status => $2,
+	unavailable_value => $3,
+	restricted_user_list => $4
+);$5"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_ATTRIBUTE-Procedure.htm
+	'APEX_UTIL.SET_ATTRIBUTE':
+		'prefix': 'APEX_UTIL.SET_ATTRIBUTE'
+		'body': """APEX_UTIL.SET_ATTRIBUTE(
+	userid => $1,
+	attribute_number => $2,
+	attribute_value => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_AUTHENTICATION_RESULT-Procedure.htm
+	'APEX_UTIL.SET_AUTHENTICATION_RESULT':
+		'prefix': 'APEX_UTIL.SET_AUTHENTICATION_RESULT'
+		'body': """APEX_UTIL.SET_AUTHENTICATION_RESULT(
+	code => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_BUILD_OPTION_STATUS-Procedure.htm
+	'APEX_UTIL.SET_BUILD_OPTION_STATUS':
+		'prefix': 'APEX_UTIL.SET_BUILD_OPTION_STATUS'
+		'body': """APEX_UTIL.SET_BUILD_OPTION_STATUS(application_id => $1,
+	id => $2,
+	build_status => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_CURRENT_THEME_STYLE-Procedure.htm
+	'APEX_UTIL.SET_CURRENT_THEME_STYLE':
+		'prefix': 'APEX_UTIL.SET_CURRENT_THEME_STYLE'
+		'body': """APEX_UTIL.SET_CURRENT_THEME_STYLE(
+	theme_number => $1,
+	theme_style_id => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_CUSTOM_AUTH_STATUS-Procedure.htm
+	'APEX_UTIL.SET_CUSTOM_AUTH_STATUS':
+		'prefix': 'APEX_UTIL.SET_CUSTOM_AUTH_STATUS'
+		'body': """APEX_UTIL.SET_CUSTOM_AUTH_STATUS(
+	status => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_EDITION-Procedure.htm
+	'APEX_UTIL.SET_EDITION':
+		'prefix': 'APEX_UTIL.SET_EDITION'
+		'body': """APEX_UTIL.SET_EDITION(
+	edition => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_EMAIL-Procedure.htm
+	'APEX_UTIL.SET_EMAIL':
+		'prefix': 'APEX_UTIL.SET_EMAIL'
+		'body': """APEX_UTIL.SET_EMAIL(
+	userid => $1,
+	email => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_FIRST_NAME-Procedure.htm
+	'APEX_UTIL.SET_FIRST_NAME':
+		'prefix': 'APEX_UTIL.SET_FIRST_NAME'
+		'body': """APEX_UTIL.SET_FIRST_NAME(
+	userid => $1,
+	first_name => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_GLOBAL_NOTIFICATION-Procedure.htm
+	'APEX_UTIL.SET_GLOBAL_NOTIFICATION':
+		'prefix': 'APEX_UTIL.SET_GLOBAL_NOTIFICATION'
+		'body': """APEX_UTIL.SET_GLOBAL_NOTIFICATION(
+	application_id => $1,
+	global_notification_message => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_GROUP_GROUP_GRANTS-Procedure.htm
+	'APEX_UTIL.SET_GROUP_GROUP_GRANTS':
+		'prefix': 'APEX_UTIL.SET_GROUP_GROUP_GRANTS'
+		'body': """APEX_UTIL.SET_GROUP_GROUP_GRANTS(
+	group_name => $1,
+	granted_group_names => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_GROUP_USER_GRANTS-Procedure.htm
+	'APEX_UTIL.SET_GROUP_USER_GRANTS':
+		'prefix': 'APEX_UTIL.SET_GROUP_USER_GRANTS'
+		'body': """APEX_UTIL.SET_GROUP_USER_GRANTS(
+	user_name => $1,
+	granted_group_names => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_LAST_NAME-Procedure.htm
+	'APEX_UTIL.SET_LAST_NAME':
+		'prefix': 'APEX_UTIL.SET_LAST_NAME'
+		'body': """APEX_UTIL.SET_LAST_NAME(
+	userid => $1,
+	last_name => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_PREFERENCE-Procedure.htm
+	'APEX_UTIL.SET_PREFERENCE':
+		'prefix': 'APEX_UTIL.SET_PREFERENCE'
+		'body': """APEX_UTIL.SET_PREFERENCE(
+	preference => $1,
+	value => $2,
+	user => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_SECURITY_GROUP_ID-Procedure.htm
+	'APEX_UTIL.SET_SECURITY_GROUP_ID':
+		'prefix': 'APEX_UTIL.SET_SECURITY_GROUP_ID'
+		'body': """APEX_UTIL.SET_SECURITY_GROUP_ID(
+	security_group_id => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_SESSION_HIGH_CONTRAST_OFF-Procedure.htm
+	'APEX_UTIL.SET_SESSION_HIGH_CONTRAST_OFF':
+		'prefix': 'APEX_UTIL.SET_SESSION_HIGH_CONTRAST_OFF'
+		'body': """APEX_UTIL.SET_SESSION_HIGH_CONTRAST_OFF"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_SESSION_HIGH_CONTRAST_ON-Procedure.htm
+	'APEX_UTIL.SET_SESSION_HIGH_CONTRAST_ON':
+		'prefix': 'APEX_UTIL.SET_SESSION_HIGH_CONTRAST_ON'
+		'body': """APEX_UTIL.SET_SESSION_HIGH_CONTRAST_ON"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_SESSION_LANG-Procedure.htm
+	'APEX_UTIL.SET_SESSION_LANG':
+		'prefix': 'APEX_UTIL.SET_SESSION_LANG'
+		'body': """APEX_UTIL.SET_SESSION_LANG(
+	lang => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_SESSION_LIFETIME_SECONDS-Procedure.htm
+	'APEX_UTIL.SET_SESSION_LIFETIME_SECONDS':
+		'prefix': 'APEX_UTIL.SET_SESSION_LIFETIME_SECONDS'
+		'body': """APEX_UTIL.SET_SESSION_LIFETIME_SECONDS(
+	seconds => $1,
+	scope => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_SESSION_MAX_IDLE_SECONDS-Procedure.htm
+	'APEX_UTIL.SET_SESSION_MAX_IDLE_SECONDS':
+		'prefix': 'APEX_UTIL.SET_SESSION_MAX_IDLE_SECONDS'
+		'body': """APEX_UTIL.SET_SESSION_MAX_IDLE_SECONDS(
+	seconds => $1,
+	scope => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_SESSION_SCREEN_READER_OFF-Procedure.htm
+	'APEX_UTIL.SET_SESSION_SCREEN_READER_OFF':
+		'prefix': 'APEX_UTIL.SET_SESSION_SCREEN_READER_OFF'
+		'body': """APEX_UTIL.SET_SESSION_SCREEN_READER_OFF"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_SESSION_SCREEN_READER_ON-Procedure.htm
+	'APEX_UTIL.SET_SESSION_SCREEN_READER_ON':
+		'prefix': 'APEX_UTIL.SET_SESSION_SCREEN_READER_ON'
+		'body': """APEX_UTIL.SET_SESSION_SCREEN_READER_ON"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_SESSION_STATE-Procedure.htm
+	'APEX_UTIL.SET_SESSION_STATE':
+		'prefix': 'APEX_UTIL.SET_SESSION_STATE'
+		'body': """APEX_UTIL.SET_SESSION_STATE(
+	name => $1,
+	value => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_SESSION_TERRITORY-Procedure.htm
+	'APEX_UTIL.SET_SESSION_TERRITORY':
+		'prefix': 'APEX_UTIL.SET_SESSION_TERRITORY'
+		'body': """APEX_UTIL.SET_SESSION_TERRITORY(
+	territory => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_SESSION_TIME_ZONE-Procedure.htm
+	'APEX_UTIL.SET_SESSION_TIME_ZONE':
+		'prefix': 'APEX_UTIL.SET_SESSION_TIME_ZONE'
+		'body': """APEX_UTIL.SET_SESSION_TIME_ZONE(
+	time_zone => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SET_USERNAME-Procedure.htm
+	'APEX_UTIL.SET_USERNAME':
+		'prefix': 'APEX_UTIL.SET_USERNAME'
+		'body': """APEX_UTIL.SET_USERNAME(
+	userid => $1,
+	username => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SHOW_HIGH_CONTRAST_MODE_TOGGLE-Procedure.htm
+	'APEX_UTIL.SHOW_HIGH_CONTRAST_MODE_TOGGLE':
+		'prefix': 'APEX_UTIL.SHOW_HIGH_CONTRAST_MODE_TOGGLE'
+		'body': """APEX_UTIL.SHOW_HIGH_CONTRAST_MODE_TOGGLE(
+	on_message => $1,
+	off_message => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SHOW_SCREEN_READER_MODE_TOGGLE-Procedure.htm
+	'APEX_UTIL.SHOW_SCREEN_READER_MODE_TOGGLE':
+		'prefix': 'APEX_UTIL.SHOW_SCREEN_READER_MODE_TOGGLE'
+		'body': """APEX_UTIL.SHOW_SCREEN_READER_MODE_TOGGLE(
+	on_message => $1,
+	off_message => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/STRING_TO_TABLE-Function.htm
+	'APEX_UTIL.STRING_TO_TABLE':
+		'prefix': 'APEX_UTIL.STRING_TO_TABLE'
+		'body': """APEX_UTIL.STRING_TO_TABLE(
+	string => $1,
+	separator => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/STRONG_PASSWORD_CHECK-Procedure.htm
+	'APEX_UTIL.STRONG_PASSWORD_CHECK':
+		'prefix': 'APEX_UTIL.STRONG_PASSWORD_CHECK'
+		'body': """APEX_UTIL.STRONG_PASSWORD_CHECK(
+	username => $1,
+	password => $2,
+	old_password => $3,
+	workspace_name => $4,
+	use_strong_rules => $5,
+	min_length_err => $6,
+	new_differs_by_err => $7,
+	one_alpha_err => $8,
+	one_numeric_err => $9,
+	one_punctuation_err => $10,
+	one_upper_err => $11,
+	one_lower_err => $12,
+	not_like_username_err => $13,
+	not_like_workspace_name_err => $14,
+	not_like_words_err => $15,
+	not_reusable_err => $16
+);$17"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SUBMIT_FEEDBACK-Procedure.htm
+	'APEX_UTIL.SUBMIT_FEEDBACK':
+		'prefix': 'APEX_UTIL.SUBMIT_FEEDBACK'
+		'body': """APEX_UTIL.SUBMIT_FEEDBACK(
+	comment => $1,
+	type => $2,
+	application_id => $3,
+	page_id => $4,
+	email => $5,
+	screen_width => $6,
+	screen_height => $7,
+	attribute_01 => $8,
+	attribute_02 => $9,
+	attribute_03 => $10,
+	attribute_04 => $11,
+	attribute_05 => $12,
+	attribute_06 => $13,
+	attribute_07 => $14,
+	attribute_08 => $15,
+	label_01 => $16,
+	label_02 => $17,
+	label_03 => $18,
+	label_04 => $19,
+	label_05 => $20,
+	label_06 => $21,
+	label_07 => $22,
+	label_08 => $23
+);$24"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/SUBMIT_FEEDBACK_FOLLOWUP-Procedure.htm
+	'APEX_UTIL.SUBMIT_FEEDBACK_FOLLOWUP':
+		'prefix': 'APEX_UTIL.SUBMIT_FEEDBACK_FOLLOWUP'
+		'body': """APEX_UTIL.SUBMIT_FEEDBACK_FOLLOWUP(
+	feedback_id => $1,
+	follow_up => $2,
+	email => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/TABLE_TO_STRING-Function.htm
+	'APEX_UTIL.TABLE_TO_STRING':
+		'prefix': 'APEX_UTIL.TABLE_TO_STRING'
+		'body': """APEX_UTIL.TABLE_TO_STRING(
+	table => $1,
+	string => $2
+);$3"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UNEXPIRE_END_USER_ACCOUNT-Procedure.htm
+	'APEX_UTIL.UNEXPIRE_END_USER_ACCOUNT':
+		'prefix': 'APEX_UTIL.UNEXPIRE_END_USER_ACCOUNT'
+		'body': """APEX_UTIL.UNEXPIRE_END_USER_ACCOUNT(
+	user_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UNEXPIRE_WORKSPACE_ACCOUNT-Procedure.htm
+	'APEX_UTIL.UNEXPIRE_WORKSPACE_ACCOUNT':
+		'prefix': 'APEX_UTIL.UNEXPIRE_WORKSPACE_ACCOUNT'
+		'body': """APEX_UTIL.UNEXPIRE_WORKSPACE_ACCOUNT(
+	user_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/UNLOCK_ACCOUNT-Procedure.htm
+	'APEX_UTIL.UNLOCK_ACCOUNT':
+		'prefix': 'APEX_UTIL.UNLOCK_ACCOUNT'
+		'body': """APEX_UTIL.UNLOCK_ACCOUNT(
+	user_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/URL_ENCODE-Function.htm
+	'APEX_UTIL.URL_ENCODE':
+		'prefix': 'APEX_UTIL.URL_ENCODE'
+		'body': """APEX_UTIL.URL_ENCODE(
+	url => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/WORKSPACE_ACCOUNT_DAYS_LEFT-Function.htm
+	'APEX_UTIL.WORKSPACE_ACCOUNT_DAYS_LEFT':
+		'prefix': 'APEX_UTIL.WORKSPACE_ACCOUNT_DAYS_LEFT'
+		'body': """APEX_UTIL.WORKSPACE_ACCOUNT_DAYS_LEFT(
+	user_name => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/BLOB2CLOBBASE64-Function.htm
+	'APEX_WEB_SERVICE.BLOB2CLOBBASE64':
+		'prefix': 'APEX_WEB_SERVICE.BLOB2CLOBBASE64'
+		'body': """APEX_WEB_SERVICE.BLOB2CLOBBASE64(
+	blob => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/CLOBBASE642BLOB-Function.htm
+	'APEX_WEB_SERVICE.CLOBBASE642BLOB':
+		'prefix': 'APEX_WEB_SERVICE.CLOBBASE642BLOB'
+		'body': """APEX_WEB_SERVICE.CLOBBASE642BLOB(
+	clob => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/MAKE_REQUEST-Procedure.htm
+	'APEX_WEB_SERVICE.MAKE_REQUEST':
+		'prefix': 'APEX_WEB_SERVICE.MAKE_REQUEST'
+		'body': """APEX_WEB_SERVICE.MAKE_REQUEST(
+	url => $1,
+	action => $2,
+	version => $3,
+	collection_name => $4,
+	envelope => $5,
+	username => $6,
+	password => $7,
+	scheme => $8,
+	proxy_override => $9,
+	transfer_timeout => $10,
+	wallet_path => $11,
+	wallet_pwd => $12
+);$13"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/MAKE_REST_REQUEST-Function.htm
+	'APEX_WEB_SERVICE.MAKE_REST_REQUEST':
+		'prefix': 'APEX_WEB_SERVICE.MAKE_REST_REQUEST'
+		'body': """APEX_WEB_SERVICE.MAKE_REST_REQUEST(
+	url => $1,
+	http_method => $2,
+	username => $3,
+	password => $4,
+	scheme => $5,
+	proxy_override => $6,
+	transfer_timeout => $7,
+	body => $8
+);$9"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/MAKE_REST_REQUEST_B-Function.htm
+	'APEX_WEB_SERVICE.MAKE_REST_REQUEST_B':
+		'prefix': 'APEX_WEB_SERVICE.MAKE_REST_REQUEST_B'
+		'body': """APEX_WEB_SERVICE.MAKE_REST_REQUEST_B(
+	url => $1,
+	http_method => $2,
+	username => $3,
+	password => $4,
+	scheme => $5,
+	proxy_override => $6,
+	transfer_timeout => $7,
+	body => $8
+);$9"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PARSE_RESPONSE-Function.htm
+	'APEX_WEB_SERVICE.PARSE_RESPONSE':
+		'prefix': 'APEX_WEB_SERVICE.PARSE_RESPONSE'
+		'body': """APEX_WEB_SERVICE.PARSE_RESPONSE(
+	collection_name => $1,
+	xpath => $2,
+	ns => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PARSE_RESPONSE_CLOB-Function.htm
+	'APEX_WEB_SERVICE.PARSE_RESPONSE_CLOB':
+		'prefix': 'APEX_WEB_SERVICE.PARSE_RESPONSE_CLOB'
+		'body': """APEX_WEB_SERVICE.PARSE_RESPONSE_CLOB(
+	collection_name => $1,
+	xpath => $2,
+	ns => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PARSE_XML-Function.htm
+	'APEX_WEB_SERVICE.PARSE_XML':
+		'prefix': 'APEX_WEB_SERVICE.PARSE_XML'
+		'body': """APEX_WEB_SERVICE.PARSE_XML(
+	xml => $1,
+	xpath => $2,
+	ns => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/PARSE_XML_CLOB-Function.htm
+	'APEX_WEB_SERVICE.PARSE_XML_CLOB':
+		'prefix': 'APEX_WEB_SERVICE.PARSE_XML_CLOB'
+		'body': """APEX_WEB_SERVICE.PARSE_XML_CLOB(
+	xml => $1,
+	xpath => $2,
+	ns => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/ADD_FILE-Procedure-2.htm
+	'APEX_ZIP.ADD_FILE':
+		'prefix': 'APEX_ZIP.ADD_FILE'
+		'body': """APEX_ZIP.ADD_FILE(
+	zipped_blob => $1,
+	file_name => $2,
+	content => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/FINISH-Procedure.htm
+	'APEX_ZIP.FINISH':
+		'prefix': 'APEX_ZIP.FINISH'
+		'body': """APEX_ZIP.FINISH(
+	zipped_blob => $1
+);$2"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_FILE_CONTENT-Function.htm
+	'APEX_ZIP.GET_FILE_CONTENT':
+		'prefix': 'APEX_ZIP.GET_FILE_CONTENT'
+		'body': """APEX_ZIP.GET_FILE_CONTENT(
+	zipped_blob => $1,
+	file_name => $2,
+	encoding => $3
+);$4"""
+	#URL: http://docs.oracle.com/database/apex-5.1/AEAPI/GET_FILES-Function.htm
+	'APEX_ZIP.GET_FILES':
+		'prefix': 'APEX_ZIP.GET_FILES'
+		'body': """APEX_ZIP.GET_FILES(
+	zipped_blob => $1,
+	only_files => $2,
+	encoding => $3
+);$4"""

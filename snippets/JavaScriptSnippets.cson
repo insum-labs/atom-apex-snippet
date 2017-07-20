@@ -1,0 +1,588 @@
+'.source.js':
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-da-namespace.htm
+  'apex.da.resume':
+    'prefix': 'apex.da.resume'
+    'body': """apex.da.resume($1pCallback, $2pErrorOccurred);$3"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-debug-namespace.htm
+  'apex.debug.LOG_LEVEL.OFF':
+    'prefix': 'apex.debug.LOG_LEVEL.OFF'
+    'body': """apex.debug.LOG_LEVEL.OFF;"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-debug-namespace.htm
+  'apex.debug.LOG_LEVEL.ERROR':
+    'prefix': 'apex.debug.LOG_LEVEL.ERROR'
+    'body': """apex.debug.LOG_LEVEL.ERROR;"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-debug-namespace.htm
+  'apex.debug.LOG_LEVEL.WARN':
+    'prefix': 'apex.debug.LOG_LEVEL.WARN'
+    'body': """apex.debug.LOG_LEVEL.WARN;"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-debug-namespace.htm
+  'apex.debug.LOG_LEVEL.INFO':
+    'prefix': 'apex.debug.LOG_LEVEL.INFO'
+    'body': """apex.debug.LOG_LEVEL.INFO;"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-debug-namespace.htm
+  'apex.debug.LOG_LEVEL.APP_TRACE':
+    'prefix': 'apex.debug.LOG_LEVEL.APP_TRACE'
+    'body': """apex.debug.LOG_LEVEL.APP_TRACE;"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-debug-namespace.htm
+  'apex.debug.LOG_LEVEL.ENGINE_TRACE':
+    'prefix': 'apex.debug.LOG_LEVEL.ENGINE_TRACE'
+    'body': """apex.debug.LOG_LEVEL.ENGINE_TRACE;"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-debug-namespace.htm
+  'apex.debug.getLevel':
+    'prefix': 'apex.debug.getLevel'
+    'body': """apex.debug.getLevel();"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-debug-namespace.htm
+  'apex.debug.info':
+    'prefix': 'apex.debug.info'
+    'body': """apex.debug.info($1);$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-debug-namespace.htm
+  'apex.debug.message':
+    'prefix': 'apex.debug.message'
+    'body': """apex.debug.message($1pLevel, $2pMessage);$3"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-debug-namespace.htm
+  'apex.debug.setLevel':
+    'prefix': 'apex.debug.setLevel'
+    'body': """apex.debug.setLevel($1pLevel);$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-debug-namespace.htm
+  'apex.debug.trace':
+    'prefix': 'apex.debug.trace'
+    'body': """apex.debug.trace($1);$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-debug-namespace.htm
+  'apex.debug.warn':
+    'prefix': 'apex.debug.warn'
+    'body': """apex.debug.warn($1);$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-event-namespace.htm
+  'apex.event.trigger':
+    'prefix': 'apex.event.trigger'
+    'body': """apex.event.trigger($1pSelector, $2pEvent, $3pData);$4"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-item.htm
+  'apex.item':
+    'prefix': 'apex.item'
+    'body': """apex.item"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-item.htm
+  'apex.item().addValue':
+    'prefix': 'apex.item().addValue'
+    'body': """apex.item($1).addValue($2pValue);$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-item.htm
+  'apex.item().disable':
+    'prefix': 'apex.item().disable'
+    'body': """apex.item($1).disable();$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-item.htm
+  'apex.item().displayValueFor':
+    'prefix': 'apex.item().displayValueFor'
+    'body': """apex.item($1).displayValueFor($2pValue);$3"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-item.htm
+  'apex.item().enable':
+    'prefix': 'apex.item().enable'
+    'body': """apex.item($1).enable();$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-item.htm
+  'apex.item().getValidity':
+    'prefix': 'apex.item().getValidity'
+    'body': """apex.item($1).getValidity();$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-item.htm
+  'apex.item().getValidationMessage':
+    'prefix': 'apex.item().getValidationMessage'
+    'body': """apex.item($1).getValidationMessage();$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-item.htm
+  'apex.item().getValue':
+    'prefix': 'apex.item().getValue'
+    'body': """apex.item($1).getValue();$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-item.htm
+  'apex.item().hide':
+    'prefix': 'apex.item().hide'
+    'body': """apex.item($1).hide();$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-item.htm
+  'apex.item().isChanged':
+    'prefix': 'apex.item().isChanged'
+    'body': """apex.item($1).isChanged();$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-item.htm
+  'apex.item().isEmpty':
+    'prefix': 'apex.item().isEmpty'
+    'body': """apex.item($1).isEmpty();$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-item.htm
+  'apex.item().id':
+    'prefix': 'apex.item().id'
+    'body': """apex.item($1).id;$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-item.htm
+  'apex.item().node':
+    'prefix': 'apex.item().node'
+    'body': """apex.item($1).node;$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-item.htm
+  'apex.item().setFocus':
+    'prefix': 'apex.item().setFocus'
+    'body': """apex.item($1).setFocus();$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-item.htm
+  'apex.item().setStyle':
+    'prefix': 'apex.item().setStyle'
+    'body': """apex.item($1).setStyle($2pPropertyName, $2pPropertyValue);$3"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-item.htm
+  'apex.item().setValue':
+    'prefix': 'apex.item().setValue'
+    'body': """apex.item($1).setValue($2pValue, $3pDisplayValue, $4pSuppressChangeEvent);$5"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-item.htm
+  'apex.item().show':
+    'prefix': 'apex.item().show'
+    'body': """apex.item($1).show();$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-item.htm
+  'apex.item.create':
+    'prefix': 'apex.item.create'
+    'body': """apex.item.create( $1pItemId, {
+             displayValueFor: function( pValue ) {
+                var lDisplayValue;
+                // code to determine the display value for pValue
+                return lDisplayValue;
+            },
+             enable: function() {
+                 // code that enables the item type
+             },
+             getPopupSelector: function() {
+                 return "<some CSS selector>";
+            },
+             getValidity: function() {
+                 var lValidity = { valid: true };
+                 if ( /* item is not valid */ ) {
+                     lValidity.valid = false;
+                 }
+                 return lValidity;
+             },
+             getValue: function() {
+                 var lValue;
+                 // code to determine lValue based on the item type.
+                 return lValue;
+             },
+             setValue: function( pValue, pDisplayValue ) {
+                // code that sets pValue and pDisplayValue (if required), for the item type
+             },
+             disable: function() {
+                // code that disables the item type
+             },
+             show: function() {
+                 // code that shows the item type
+             },
+             hide: function() {
+                 // code that hides the item type
+             },
+             isChanged: function() {
+                 var lChanged;
+                 // code to determine if the value has changed
+                 return lChanged;
+             },
+             addValue: function( pValue ) {
+                 // code that adds pValue to the values already in the item type
+             },
+             nullValue: "<null return value for the item>",
+             setFocusTo: $( "<some jQuery selector>" ),
+             setStyleTo: $( "<some jQuery selector>" ),
+             afterModify: function(){
+                 // code to always fire after the item has been modified (value set, enabled, etc.)
+             },
+             loadingIndicator: function( pLoadingIndicator$ ){
+                 // code to add the loading indicator in the best place for the item
+                 return pLoadingIndicator$;
+             }
+            });"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-lang-namespace.htm
+  'apex.lang.addMessages':
+    'prefix': 'apex.lang.addMessages'
+    'body': """apex.lang.addMessages($1pMessages);$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-lang-namespace.htm
+  'apex.lang.clearMessages':
+    'prefix': 'apex.lang.clearMessages'
+    'body': """apex.lang.clearMessages();"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-lang-namespace.htm
+  'apex.lang.format':
+    'prefix': 'apex.lang.format'
+    'body': """apex.lang.format("Total cost: $%0", orderTotal);"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-lang-namespace.htm
+  'apex.lang.formatMessage':
+    'prefix': 'apex.lang.formatMessage'
+    'body': """apex.lang.formatMessage($1pKey, $2pOptionalReplacementValues);$3"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-lang-namespace.htm
+  'apex.lang.formatNoEscape':
+    'prefix': 'apex.lang.formatNoEscape'
+    'body': """apex.lang.formatNoEscape($1pPattern, $2pOptionalReplacementValues);$3"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-lang-namespace.htm
+  'apex.lang.getMessage':
+    'prefix': 'apex.lang.getMessage'
+    'body': """apex.lang.getMessage($1pKey);$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-message-namespace.htm
+  'apex.message':
+    'prefix': 'apex.message'
+    'body': """apex.message;"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-message-namespace.htm
+  'apex.message.addVisibilityCheck':
+    'prefix': 'apex.message.addVisibilityCheck'
+    'body': """apex.message.addVisibilityCheck(
+            function(id){
+            $2
+            }
+            );$3
+            apex.message.alert($1pMessage,
+            function() {
+            $2
+            }
+            );$3"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-message-namespace.htm
+  'apex.message.clearErrors':
+    'prefix': 'apex.message.clearErrors'
+    'body': """apex.message.clearErrors();"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-message-namespace.htm
+  'apex.message.confirm':
+    'prefix': 'apex.message.confirm'
+    'body': """apex.message.confirm($1pMessage,
+            function(okPressed) {
+            $2
+            }
+            );$3"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-message-namespace.htm
+  'apex.message.hidePageSuccess':
+    'prefix': 'apex.message.hidePageSuccess'
+    'body': """apex.message.hidePageSuccess();"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-message-namespace.htm
+  'apex.message.setThemeHooks':
+    'prefix': 'apex.message.setThemeHooks'
+    'body': """apex.message.setThemeHooks({
+            beforeShow: function() {
+            $1
+            },
+            beforeHide: function() {
+            $2
+            },
+            $3closeNotificationSelector
+            });$4"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-message-namespace.htm
+  'apex.message.showErrors':
+    'prefix': 'apex.message.showErrors'
+    'body': """apex.message.showErrors([
+            {
+                type:       "error",
+                location:   [ "page", "inline" ],
+                pageItem:   "P1_ENAME",
+                message:    "Name is required!",
+                unsafe:     false
+            },
+            {
+                type:       "error",
+                location:   "page",
+                message:    "Page error has occurred!",
+                unsafe:     false
+            }
+            ]);"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-message-namespace.htm
+  'apex.message.showPageSuccess':
+    'prefix': 'apex.message.showPageSuccess'
+    'body': """apex.message.showPageSuccess($1pMessage);$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-message-namespace.htm
+  'apex.message.TYPE':
+    'prefix': 'apex.message.TYPE'
+    'body': """apex.message.TYPE;"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-message-namespace.htm
+  'apex.message.TYPE.SUCCESS':
+    'prefix': 'apex.message.TYPE.SUCCESS'
+    'body': """apex.message.TYPE.SUCCESS;"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-message-namespace.htm
+  'apex.message.TYPE.ERROR':
+    'prefix': 'apex.message.TYPE.ERROR'
+    'body': """apex.message.TYPE.ERROR;"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-navigation-namespace.htm
+  'apex.navigation.dialog':
+    'prefix': 'apex.navigation.dialog'
+    'body': """apex.navigation.dialog(url, {
+            title:'About',
+            height:'480',
+            width:'800',
+            maxWidth:'1200',
+            modal:true,
+            resizable:false },
+            'a-Dialog--uiDialog',
+            '#myregion_static_id');
+            apex.navigation.dialog.cancel($1pIsModal);$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-navigation-namespace.htm
+  'apex.navigation.dialog.close':
+    'prefix': 'apex.navigation.dialog.close'
+    'body': """apex.navigation.dialog.close(true,
+            function( pDialog ) {
+            apex.navigation.dialog(url, {
+                title:'About',
+                height:'480',
+                width:'800',
+                maxWidth:'1200',
+                modal:true,
+                dialog:pDialog,
+                resizable:false },
+                'a-Dialog--uiDialog',
+                '#myregion_static_id');
+            }
+            );"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-navigation-namespace.htm
+  'apex.navigation.dialog.fireCloseHandler':
+    'prefix': 'apex.navigation.dialog.fireCloseHandler'
+    'body': """apex.navigation.dialog.fireCloseHandler({
+            "handler$": $1,//jQuery object where the event will be registered
+            "dialog": $2,
+            "closeFunction": function() {
+            $3
+            }
+            });%4"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-navigation-namespace.htm
+  'apex.navigation.dialog.registerCloseHandler':
+    'prefix': 'apex.navigation.dialog.registerCloseHandler'
+    'body': """apex.navigation.dialog.registerCloseHandler({
+            "handler$": $1,//jQuery object where the event will be registered
+            "dialog": $2,
+            "closeFunction": function() {
+            $3
+            }
+            );$4"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-navigation-namespace.htm
+  'apex.navigation.openInNewWindow':
+    'prefix': 'apex.navigation.openInNewWindow'
+    'body': """apex.navigation.openInNewWindow(url, "OptionalWindowName");"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-navigation-namespace.htm
+  'apex.navigation.popup':
+    'prefix': 'apex.navigation.popup'
+    'body': """apex.navigation.popup ({
+            url: "about:blank",
+             name: "_blank",
+             width: 400,
+             height: 400,
+             scroll: "no",
+             resizable: "no",
+             toolbar: "yes" });"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-navigation-namespace.htm
+  'apex.navigation.popup.close':
+    'prefix': 'apex.navigation.popup.close'
+    'body': """apex.navigation.popup.close($1pItem,$2pValue);$3"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-navigation-namespace.htm
+  'apex.navigation.redirect':
+    'prefix': 'apex.navigation.redirect'
+    'body': """apex.navigation.redirect($1pWhere);$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.page.cancelWarnOnUnsavedChanges':
+    'prefix': 'apex.page.cancelWarnOnUnsavedChanges'
+    'body': """apex.page.cancelWarnOnUnsavedChanges();"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.confirm':
+    'prefix': 'apex.confirm'
+    'body': """apex.confirm($1pMessage, $2pRequest);$3"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.page.confirm':
+    'prefix': 'apex.page.confirm'
+    'body': """apex.page.confirm($1pMessage, $2pRequest);$3"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.page.submit':
+    'prefix': 'apex.page.submit'
+    'body': """apex.page.submit({
+            request:"DELETE",
+            set:{"P1_DEPTNO":10, "P1_EMPNO":5433},
+            showWait: true
+            });"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.submit':
+    'prefix': 'apex.submit'
+    'body': """apex.submit({
+            request:"DELETE",
+            set:{"P1_DEPTNO":10, "P1_EMPNO":5433},
+            showWait: true
+            });"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.page.validate':
+    'prefix': 'apex.page.validate'
+    'body': """apex.page.validate();"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.page.isChanged':
+    'prefix': 'apex.page.isChanged'
+    'body': """apex.page.isChanged();"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.page.warnOnUnsavedChanges':
+    'prefix': 'apex.page.warnOnUnsavedChanges'
+    'body': """apex.page.warnOnUnsavedChanges($1pMessage);$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.region':
+    'prefix': 'apex.region'
+    'body': """apex.region($1pRegionId);$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.region().focus':
+    'prefix': 'apex.region().focus'
+    'body': """apex.region($1).focus();$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.region().refresh':
+    'prefix': 'apex.region().refresh'
+    'body': """apex.region($1).refresh();$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.region().widget':
+    'prefix': 'apex.region().widget'
+    'body': """apex.region($1).widget();$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.region.create':
+    'prefix': 'apex.region.create'
+    'body': """apex.region.create( pRegionId, {
+            type: "FancyList",
+            focus: function() {
+                /* code to focus region */
+            },
+            refresh: function() {
+                /* code to refresh region */
+            }
+            });"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.region.destroy':
+    'prefix': 'apex.region.destroy'
+    'body': """apex.region.destroy($1pRegionId);$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.region.isRegion':
+    'prefix': 'apex.region.isRegion'
+    'body': """apex.region.isRegion($1);$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.region.findClosest':
+    'prefix': 'apex.region.findClosest'
+    'body': """apex.region.findClosest($1pTarget);$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.server.loadScript':
+    'prefix': 'apex.server.loadScript'
+    'body': """apex.server.loadScript ({
+            "path": "./library_all.js",
+            "requirejs": true
+            }, function() {
+            console.log( myModule_1, myModule_2 ... );
+            });"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.server.plugin':
+    'prefix': 'apex.server.plugin'
+    'body': """apex.server.plugin ( lAjaxIdentifier, {
+            x01: "test",
+            pageItems: "#P1_DEPTNO,#P1_EMPNO"
+            }, {
+               refreshObject: "#P1_MY_LIST",
+               loadingIndicator: "#P1_MY_LIST",
+               success: function( pData ) {
+                 // do something here
+               }
+            }
+            );"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.server.pluginUrl':
+    'prefix': 'apex.server.pluginUrl'
+    'body': """apex.server.pluginUrl ( lAjaxIdentifier, {
+            x01: "test",
+            pageItems: "#P1_DEPTNO,#P1_EMPNO" } );
+            apex.server.process ( "MY_PROCESS", {
+                x01: "test",
+                pageItems: "#P1_DEPTNO,#P1_EMPNO"
+            },{
+                success: function( pData )
+                    // do something here
+                }
+            }
+            );"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.server.url':
+    'prefix': 'apex.server.url'
+    'body': """apex.server.url ({
+            p_request: "DELETE",
+            x01: "test",
+            pageItems: "#P1_DEPTNO,#P1_EMPNO" });
+            apex.storage.getCookie($1pName);"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.storage.hasLocalStorageSupport':
+    'prefix': 'apex.storage.hasLocalStorageSupport'
+    'body': """apex.storage.hasLocalStorageSupport();"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.storage.getScopedLocalStorage':
+    'prefix': 'apex.storage.getScopedLocalStorage'
+    'body': """apex.storage.getScopedLocalStorage( {
+              prefix: "Acme",
+              useAppId: true
+            }
+            );"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.storage.hasSessionStorageSupport':
+    'prefix': 'apex.storage.hasSessionStorageSupport'
+    'body': """apex.storage.hasSessionStorageSupport();"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-page-namespace.htm
+  'apex.storage.setCookie':
+    'prefix': 'apex.storage.setCookie'
+    'body': """apex.storage.setCookie($1pName,$2pValue);$3"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-util-namespace.htm
+  'apex.util.escapeCSS':
+    'prefix': 'apex.util.escapeCSS'
+    'body': """apex.util.escapeCSS($1pValue);$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-util-namespace.htm
+  'apex.util.escapeHTML':
+    'prefix': 'apex.util.escapeHTML'
+    'body': """apex.util.escapeHTML($1pValue);$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-util-namespace.htm
+  'apex.util.showSpinner':
+    'prefix': 'apex.util.showSpinner'
+    'body': """apex.util.showSpinner($1pContainer, $2pOptions);$3"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-util-namespace.htm
+  'apex.util.stripHTML':
+    'prefix': 'apex.util.stripHTML'
+    'body': """apex.util.stripHTML($1pText);$2"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-util-namespace.htm
+  'apex.util.applyTemplate':
+    'prefix': 'apex.util.applyTemplate'
+    'body': """apex.util.applyTemplate($1pTemplate, {
+            placeholders: $2,
+            defaultEscapeFilter: $3,
+            includePageItems: $4,
+            model: $4,
+            record: $5,
+            extraSubstitutions: $6,
+            includeBuiltinSubstitutions: $7
+            }
+            );$8"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-util-namespace.htm
+  'apex.util.delayLinger':
+    'prefix': 'apex.util.delayLinger'
+    'body': """apex.util.delayLinger();"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-util-namespace.htm
+  'util.delayLinger.start':
+    'prefix': 'util.delayLinger.start'
+    'body': """util.delayLinger.start( "main",
+            function() {
+              lSpinner$ = apex.util.showSpinnter( $( "#container_id" ) );
+            }
+            );"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/apex-util-namespace.htm
+  'lPromise.always':
+    'prefix': 'lPromise.always'
+    'body': """lPromise.always(
+            function() {
+            util.delayLinger.finish( "main", function() {
+                  lSpinner$.remove();
+              });
+            }
+            );"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/Events.htm
+  'apexafterclosedialog':
+    'prefix': 'apexafterclosedialog'
+    'body': """apexafterclosedialog"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/Events.htm
+  'apexbeforerefresh':
+    'prefix': 'apexbeforerefresh'
+    'body': """apexbeforerefresh"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/Events.htm
+  'apexafterrefresh':
+    'prefix': 'apexafterrefresh'
+    'body': """apexafterrefresh"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/Events.htm
+  'apexbeforepagesubmit':
+    'prefix': 'apexbeforepagesubmit'
+    'body': """apexbeforepagesubmit"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/Events.htm
+  'apexbeginrecordedit':
+    'prefix': 'apexbeginrecordedit'
+    'body': """apexbeginrecordedit"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/Events.htm
+  'apexendrecordedit':
+    'prefix': 'apexendrecordedit'
+    'body': """apexendrecordedit"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/Events.htm
+  'apexpagesubmit':
+    'prefix': 'apexpagesubmit'
+    'body': """apexpagesubmit"""
+  #URL: http://docs.oracle.com/database/apex-5.1/AEAPI/Events.htm
+  'apexwindowresized':
+    'prefix': 'apexwindowresized'
+    'body': """apexwindowresized"""
