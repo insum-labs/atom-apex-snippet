@@ -18,8 +18,7 @@ module.exports =
       title: 'APEX version'
       type: 'string'
       default: '5.1'
-      # enum: ['4.2','5.0','5.1']
-      enum: ['5.0','5.1']
+      enum: ['4.2','5.0','5.1']
       order: 0
     capitalPref:
       title: 'Case Preference'
