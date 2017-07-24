@@ -89,6 +89,7 @@ module.exports =
     console.log('wrote enableSnippets to snippets/snippets.cson')
     @toggle()
 
+
   # postComma: ->
   #   console.log('Convert text!')
   #   data = fs.readFileSync(process.env.ATOM_HOME+'\\packages\\atom-apex-snippet\\lib\\'+versionVar+'\\scrapedSnippetCommaEnds.cson')
