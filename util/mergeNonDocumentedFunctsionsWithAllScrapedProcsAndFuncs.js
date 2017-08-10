@@ -84,7 +84,7 @@ function mergeNonDocFuncsIntoAllFuncProcs() {
       currentArgumentsSnippet = currentArgumentsSnippet.join('\n');
 
       bodyFullText = currentPackage + '.' + currentFuncProc +
-                     (currentArguments ? '(\n' + currentArguments + '\n)': '' ) +
+                     (currentArguments ? '(\n' + currentArguments + ')': '' ) +
                      (currentFuncReturn ? '\nreturn ' + currentFuncReturn : '');
       bodyNoDefault = (currentArguments ? currentArgumentsSnippet + '\n' : '');
       allFuncProcs[currentPackage][currentFuncProc] = {
